@@ -24,9 +24,9 @@ import hmCandler from '../img/js/SPL_HM-Candler.jpg';
 import homeOfTheBestFood from '../img/js/SPL_home-of-the-best-food.jpg';
 import ticTacToe from '../img/js/tic-tac-toe.jpg';
 import mechanicalWatch from '../img/js/time-info.jpg';
-import colorPaletteReact from '../img/React/color-palette-react.jpg';
 import teamPortfolio from '../img/js/team-portfolio-js.jpg';
 
+import colorPaletteReact from '../img/react/color-palette-react.jpg';
 import reactTodoList from '../img/react/todoList-react.jpg';
 import pokemonsReact from '../img/react/pokemon-react.jpg';
 import reactHW2 from '../img/react/goit-react-hw-02.jpg';
