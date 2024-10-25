@@ -1,19 +1,188 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+  <div class="container header-inner">
+    <div class="header-inner-top">
+      <a href="./index.html" class="header-logo">Denys<span>Harkusha</span></a>
+      <address class="socials-pc">
+        <ul class="socials-list">
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href="https://www.instagram.com/denvik_i/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg width="18" height="18" class="socials_svg">
+                <use href="../img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href="https://www.linkedin.com/in/denys-harkusha/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg width="18" height="18" class="socials_svg">
+                <use href="../img/icons.svg#icon-linkedin"></use>
+              </svg></a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link git"
+              href="https://github.com/DenysHV1"
+              target="_blank"
+              rel="noopener noreferrer"
+              >github</a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href="https://mail.google.com/mail/u/0/#inbox"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg width="18" height="18" class="socials_svg">
+                <use href="../img/icons.svg#icon-mail"></use>
+              </svg></a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href="https://www.facebook.com/profile.php?id=100029193428156"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg width="18" height="18" class="socials_svg">
+                <use href="../img/icons.svg#icon-facebook"></use>
+              </svg></a>
+          </li>
+        </ul>
+      </address>
+      <div class="theme-menu">
+        <div class="mobile-checkbox">
+          <input id="switch" type="checkbox" class="checkbox" />
+          <div class="switch">
+            <div class="box">
+              <label for="switch" class="checkbox__btn">
+                <span class="circle"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="burger-menu">
+          <svg width="40" height="40" class="burger_svg">
+            <use href="../img/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="header-inner-bottom">
+      <nav class="menu-body">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="../websites.html" class="menu-link">WEBSITES</a>
+          </li>
+          <li class="menu-item">
+            <a href="../web-apps.html" class="menu-link">WEB APPS</a>
+          </li>
+          <li class="menu-item">
+            <a href="../web-games.html" class="menu-link">WEB GAMES</a>
+          </li>
+          <li class="menu-item">
+            <a href="../form-pages.html" class="menu-link">FORM OF PAGES</a>
+          </li>
+          <li class="menu-item">
+            <a href="../api-pages.html" class="menu-link">API PAGES</a>
+          </li>
+          <li class="menu-item">
+            <a href="../test-pages.html" class="menu-link">ANOTHER PAGES</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="media-menu">
+      <div class="media-menu-inner">
+        <button class="close-media-button">
+          <svg width="18" height="18" class="close-modal_svg">
+            <use href="../img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <a href="./index.html" class="header-logo logo-mobile">Denys<span>Harkusha</span></a>
+        <nav class="mobile-menu-content">
+
+          <ul class="mobile-menu-list">
+            <li class="menu-item">
+              <a href="../websites.html" class="menu-link">WEBSITES</a>
+            </li>
+            <li class="menu-item">
+              <a href="../web-apps.html" class="menu-link">WEB APPS</a>
+            </li>
+            <li class="menu-item">
+              <a href="../web-games.html" class="menu-link">WEB GAMES</a>
+            </li>
+            <li class="menu-item">
+              <a href="../form-pages.html" class="menu-link">FORM PAGES</a>
+            </li>
+            <li class="menu-item">
+              <a href="../api-pages.html" class="menu-link">API PAGES</a>
+            </li>
+            <li class="menu-item">
+              <a href="../another-pages.html" class="menu-link"
+                >ANOTHER PAGES</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <address class="socials">
+          <ul class="socials-list">
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://www.instagram.com/denvik_i/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg width="18" height="18" class="socials_svg">
+                  <use href="../img/icons.svg#icon-instagram"></use>
+                </svg></a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://www.linkedin.com/in/denys-harkusha/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg width="18" height="18" class="socials_svg">
+                  <use href="../img/icons.svg#icon-linkedin"></use>
+                </svg></a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link git"
+                href="https://github.com/DenysHV1"
+                target="_blank"
+                rel="noopener noreferrer"
+                >github</a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://mail.google.com/mail/u/0/#inbox"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg width="18" height="18" class="socials_svg">
+                  <use href="../img/icons.svg#icon-mail"></use>
+                </svg></a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://www.facebook.com/profile.php?id=100029193428156"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg width="18" height="18" class="socials_svg">
+                  <use href="../img/icons.svg#icon-facebook"></use>
+                </svg></a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </div>
   </div>
 </header>
