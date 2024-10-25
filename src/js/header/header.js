@@ -1,24 +1,23 @@
 export function header() {
   const menu = document.querySelector('.media-menu');
   const menuBtn = document.querySelector('.burger-menu');
-  const closeBtn = document.querySelector('.close-media-button')
-  const body = document.body
+  const closeBtn = document.querySelector('.close-media-button');
+  const body = document.body;
 
   menuBtn.addEventListener('click', () => {
-    menu.classList.add('is-open')
+    menu.classList.add('is-open');
     body.style.overflow = 'hidden';
-  })
+  });
   closeBtn.addEventListener('click', () => {
-    menu.classList.remove('is-open')
+    menu.classList.remove('is-open');
     body.style.overflow = 'auto';
-  })
-  menu.addEventListener('click', (e) => {
-    if(e.target === e.currentTarget){
-      menu.classList.remove('is-open')
+  });
+  menu.addEventListener('click', e => {
+    if (e.target === e.currentTarget) {
+      menu.classList.remove('is-open');
       body.style.overflow = 'auto';
     }
-
-  })
+  });
 
   // Theme
 

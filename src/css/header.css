@@ -89,7 +89,6 @@ input.checkbox:checked ~ * div.box {
 /* burger-menu */
 /*todo------------------- burger-menu */
 
-
 .theme-menu {
   display: flex;
   align-items: center;
@@ -142,7 +141,7 @@ input.checkbox:checked ~ * div.box {
   margin-bottom: 20px;
 }
 
-.close-media-button{
+.close-media-button {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -179,23 +178,23 @@ input.checkbox:checked ~ * div.box {
   fill: black;
 }
 
-.socials{
+.socials {
   width: 100%;
 }
 
-.socials-pc{
+.socials-pc {
   display: none;
   width: 100%;
 }
 
-.socials-list{
+.socials-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
 
-.socials-link{
+.socials-link {
   padding: 5px;
   display: flex;
   align-items: center;
@@ -204,23 +203,22 @@ input.checkbox:checked ~ * div.box {
   background-color: #00b068;
 }
 
-.git{
+.git {
   font-size: 22px;
   font-weight: 900;
   font-style: normal;
   color: #000000;
 }
 
-.burger-menu{
+.burger-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.burger_svg{
+.burger_svg {
   fill: #000000;
 }
-
 
 @media screen and (min-width: 360px) {
   .header-logo {
@@ -256,7 +254,7 @@ input.checkbox:checked ~ * div.box {
     height: 35px;
   }
 
-  .socials-pc{
+  .socials-pc {
     display: block;
     width: 100%;
   }
@@ -309,8 +307,8 @@ body.dark-theme {
   }
 
   .close-modal_svg {
-stroke: #fff;
-fill: #fff;
+    stroke: #fff;
+    fill: #fff;
   }
 }
 /*todo------------------- theme */
