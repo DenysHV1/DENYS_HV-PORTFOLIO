@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form of pages</title>
+    <title>Components</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -12,9 +12,17 @@
   <body>
     <load src="./partials/header.html" />
 
-    <main></main>
+    <main>
+      <section class="components">
+        <div class="container section-inner">
+          <h1 class="visually-hidden">Components</h1>
+          <ul id="components-list-js" class="list-style"></ul>
+          <div class="components-pagination-js pagination-style"></div>
+        </div>
+      </section>
+    </main>
 
     <load src="./partials/footer.html" />
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/components.js"></script>
   </body>
 </html>

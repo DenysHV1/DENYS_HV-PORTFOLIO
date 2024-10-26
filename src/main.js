@@ -1,7 +1,7 @@
 import { projectArr } from './js/project-arr';
 
 //Header
-import { header } from './js/header/header';
+import { header } from './js/header';
 header();
 
 //Last Projects

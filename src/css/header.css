@@ -310,5 +310,13 @@ body.dark-theme {
     stroke: #fff;
     fill: #fff;
   }
+
+  .technology-item{
+    color: #fff;
+  }
+
+  .pagination-btn{
+    color: #fff;
+  }
 }
 /*todo------------------- theme */

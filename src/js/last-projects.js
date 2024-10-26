@@ -12,11 +12,10 @@ export function lastProjects(projectArr, lastProjectsEl) {
     return arrInner
       .map(
         ({
-          nameOFProject,
+          name,
           id,
           status,
           imgPreview,
-          alt,
           codeLink,
           siteLink,
           technology1,
@@ -25,11 +24,11 @@ export function lastProjects(projectArr, lastProjectsEl) {
           if (status && id > maxIdx - 10) {
             return `
 			<li class="swiper-slide" id="${id}">
-      <h3 class="name-info-git">${nameOFProject}</h3>
+      <h3 class="name-info-git">${name}</h3>
 		<img
 		class="gallery-image"
 		src="${imgPreview}"
-		alt="${alt}"
+		alt="${name}"
 				width="355"
 		height="200"
 		/>
