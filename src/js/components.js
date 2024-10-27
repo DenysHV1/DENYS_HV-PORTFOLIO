@@ -10,6 +10,7 @@ const { componentsEl, componentsKey, componentsPagination } = refs;
 import { librariesMarkup } from './render-libraries-markup.js';
 import { renderListMarkup } from './render-list-markup.js';
 import { pagination } from './pagination.js';
+import { openLibraries } from './openLibraries.js';
 
 // render markup
 componentsEl.insertAdjacentHTML(
@@ -18,3 +19,6 @@ componentsEl.insertAdjacentHTML(
 );
 
 pagination(componentsEl, componentsPagination);
+
+const librariesComponentsBtn = document.querySelectorAll('.componentsLibraries');
+openLibraries(librariesComponentsBtn)

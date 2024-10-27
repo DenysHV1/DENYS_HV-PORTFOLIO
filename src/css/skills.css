@@ -25,8 +25,8 @@
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
+  animation-duration: 8s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
   color: #292929;
   padding: 32px 0px;
@@ -50,8 +50,8 @@
 .second_marquee__line {
   transform: translateX(100%);
   animation-name: marqueeLineSecond;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
+  animation-duration: 8s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 @keyframes marqueeLineSecond {

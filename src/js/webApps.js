@@ -10,6 +10,7 @@ const { webAppsEl, webAppsKey, webAppsPagination } = refs;
 import { librariesMarkup } from './render-libraries-markup.js';
 import { renderListMarkup } from './render-list-markup.js';
 import { pagination } from './pagination.js';
+import { openLibraries } from './openLibraries.js';
 
 webAppsEl.insertAdjacentHTML(
   'beforeend',
@@ -17,3 +18,6 @@ webAppsEl.insertAdjacentHTML(
 );
 
 pagination(webAppsEl, webAppsPagination);
+
+const librariesWebAppsBtn = document.querySelectorAll('.web-appsLibraries');
+openLibraries(librariesWebAppsBtn);

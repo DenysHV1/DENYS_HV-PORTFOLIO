@@ -159,3 +159,13 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.error-questionnaire{
+  color: red;
+  opacity: 0.8;
+}
+
+.error-questionnaire1{
+  background-color: red!important;
+  opacity: 0.5;
+}

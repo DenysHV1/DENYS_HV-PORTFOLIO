@@ -10,6 +10,7 @@ const { webGamesEl, webGamesKey, webGamesPagination } = refs;
 import { librariesMarkup } from './render-libraries-markup.js';
 import { renderListMarkup } from './render-list-markup.js';
 import { pagination } from './pagination.js';
+import { openLibraries } from './openLibraries.js';
 
 // render markup
 webGamesEl.insertAdjacentHTML(
@@ -18,3 +19,6 @@ webGamesEl.insertAdjacentHTML(
 );
 
 pagination(webGamesEl, webGamesPagination);
+
+const librariesWebGamesBtn = document.querySelectorAll('.web-gamesLibraries');
+openLibraries(librariesWebGamesBtn)

@@ -25,6 +25,7 @@ import homeOfTheBestFood from '../img/js/SPL_home-of-the-best-food.jpg';
 import ticTacToe from '../img/js/tic-tac-toe.jpg';
 import mechanicalWatch from '../img/js/time-info.jpg';
 import teamPortfolio from '../img/js/team-portfolio-js.jpg';
+import oldPortfolio from '../img/js/old-portfolio.jpg'
 
 import colorPaletteReact from '../img/react/color-palette-react.jpg';
 import reactTodoList from '../img/react/todoList-react.jpg';
@@ -378,6 +379,23 @@ export const projectArr = [
       },
     ],
   },
+  {
+    name: 'Old Portfolio',
+    category: 'websites',
+    status: true,
+    imgPreview: oldPortfolio,
+    codeLink: 'https://github.com/DenysHV1/old-portfolio',
+    siteLink: 'https://denyshv1.github.io/old-portfolio/',
+    technology1: 'html+css',
+    technology2: 'JavaScript',
+    id: 26,
+    libraries: [
+      {
+        name: 'simplelightbox',
+        link: 'https://www.npmjs.com/package/simplelightbox',
+      },
+    ],
+  },
 
   {
     name: 'Color palette',
@@ -388,7 +406,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/color-palette-react/',
     technology1: 'React',
     technology2: 'css',
-    id: 26,
+    id: 27,
     libraries: [],
   },
   {
@@ -400,7 +418,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/todoList-react/',
     technology1: 'React',
     technology2: 'css',
-    id: 27,
+    id: 28,
     libraries: [],
   },
   {
@@ -412,7 +430,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/pokemons-react/',
     technology1: 'React',
     technology2: 'css',
-    id: 28,
+    id: 29,
     libraries: [],
   },
   {
@@ -424,7 +442,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/team-portfolio-js/',
     technology1: 'html+css',
     technology2: 'JavaScript',
-    id: 29,
+    id: 30,
     libraries: [
       { name: 'izitoast', link: 'https://www.npmjs.com/package/izitoast' },
       {
@@ -444,7 +462,7 @@ export const projectArr = [
     siteLink: 'https://goit-react-hw-02-bay-nine.vercel.app/',
     technology1: 'React',
     technology2: 'css',
-    id: 30,
+    id: 31,
     libraries: [],
   },
   {
@@ -456,7 +474,7 @@ export const projectArr = [
     siteLink: 'https://goit-react-hw-03-weld-eight.vercel.app/',
     technology1: 'React',
     technology2: 'css',
-    id: 31,
+    id: 32,
     libraries: [
       { name: 'formik', link: 'https://formik.org/' },
       { name: 'yup', link: 'https://github.com/jquense/yup' },
@@ -472,7 +490,7 @@ export const projectArr = [
     siteLink: 'https://goit-react-hw-04-henna-seven.vercel.app/',
     technology1: 'React',
     technology2: 'css',
-    id: 32,
+    id: 33,
     libraries: [
       {
         name: 'react-loader-spinner',

@@ -9,8 +9,8 @@
 .footer-wrap {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 40px 0;
+  gap: 25px;
+  padding: 25px 0;
 }
 
 .footer-item {
@@ -34,7 +34,7 @@
 .footer-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 15px;
 }
 
 .footer-link {
@@ -80,6 +80,11 @@
   .footer-bottom {
     flex-direction: row;
     justify-content: flex-end;
+  }
+
+  .footer-wrap {
+    gap: 32px;
+    padding: 40px 0;
   }
 }
 
