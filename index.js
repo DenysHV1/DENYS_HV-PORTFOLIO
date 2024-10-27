@@ -1,4 +1,4 @@
-import{h,p as w}from"./assets/header-24JNt8Xk.js";import{S as g}from"./assets/vendor-BiMJRTlQ.js";function m(s,a){function l(i){const t=[];for(let e=i.length-1;e>=0;e--)t.push(i[e]);const o=t.length;return t.map(({name:e,id:r,status:n,imgPreview:c,codeLink:p,siteLink:d,technology1:u,technology2:f})=>{if(n&&r>o-10)return`
+import{h,p as w}from"./assets/header-CALUihft.js";import{S as g}from"./assets/vendor-BiMJRTlQ.js";function m(s,a){function l(i){const t=[];for(let e=i.length-1;e>=0;e--)t.push(i[e]);const o=t.length;return t.map(({name:e,id:r,status:n,imgPreview:c,codeLink:p,siteLink:d,technology1:u,technology2:f})=>{if(n&&r>o-10)return`
 			<li class="swiper-slide" id="${r}">
       <h3 class="name-info-git">${e}</h3>
 		<img

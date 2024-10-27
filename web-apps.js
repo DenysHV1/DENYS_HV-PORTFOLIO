@@ -1,2 +1,2 @@
-import{h as a,p as e}from"./assets/header-24JNt8Xk.js";import{r as p,p as s,a as i,l as n}from"./assets/pagination-NDMu3dEB.js";a();const{webAppsEl:r,webAppsKey:o,webAppsPagination:t}=i;r.insertAdjacentHTML("beforeend",p(e,o,n));s(r,t);
+import{h as r,p as a}from"./assets/header-CALUihft.js";import{r as s,p,o as i,a as o,l as n}from"./assets/openLibraries-S6A99LcV.js";r();const{webAppsEl:e,webAppsKey:t,webAppsPagination:b}=o;e.insertAdjacentHTML("beforeend",s(a,t,n));p(e,b);const l=document.querySelectorAll(".web-appsLibraries");i(l);
 //# sourceMappingURL=web-apps.js.map

@@ -1,2 +1,2 @@
-import{h as r,p as s}from"./assets/header-24JNt8Xk.js";import{r as a,p as i,a as t,l as n}from"./assets/pagination-NDMu3dEB.js";r();const{websitesEl:e,websitesKey:o,websitesPagination:p}=t;e.insertAdjacentHTML("beforeend",a(s,o,n));i(e,p);
+import{h as r,p as s}from"./assets/header-CALUihft.js";import{r as i,p as a,o as t,a as o,l as n}from"./assets/openLibraries-S6A99LcV.js";r();const{websitesEl:e,websitesKey:b,websitesPagination:p}=o;e.insertAdjacentHTML("beforeend",i(s,b,n));a(e,p);const l=document.querySelectorAll(".websitesLibraries");t(l);
 //# sourceMappingURL=websites.js.map
