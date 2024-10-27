@@ -24,10 +24,11 @@ const libraries = {
   librariesComponentsBtn: document.querySelector('.componentsLibraries'),
   librariesWebAppsBtn: document.querySelector('.web-appsLibraries'),
   librariesWebGamesBtn: document.querySelector('.web-gamesLibraries'),
-}
+};
 
-pagination(apiVisualsEl, apiVisualsPagination);
+const librariesApiVisualsBtn = document.querySelectorAll(
+  '.api-visualsLibraries'
+);
+openLibraries(librariesApiVisualsBtn);
 
-
-const librariesApiVisualsBtn = document.querySelectorAll('.api-visualsLibraries');
-openLibraries(librariesApiVisualsBtn)
+pagination(apiVisualsEl, apiVisualsPagination, librariesApiVisualsBtn);

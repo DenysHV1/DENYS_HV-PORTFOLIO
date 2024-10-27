@@ -1,12 +1,16 @@
 export const renderListMarkup = (projects, key, librariesMarkup) => {
-	const maxNumProj = projects.length
+  const maxNumProj = projects.length;
 
-	let space = '&nbsp&nbsp';
-	if (document.lastChild.clientWidth > 360 && document.lastChild.clientWidth < 700){
-		space = '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
-	}else if(document.lastChild.clientWidth > 700){
-		space = '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
-	}
+  let space = '&nbsp&nbsp';
+  if (
+    document.lastChild.clientWidth > 360 &&
+    document.lastChild.clientWidth < 700
+  ) {
+    space = '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
+  } else if (document.lastChild.clientWidth > 700) {
+    space =
+      '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
+  }
   const arr = projects.toSorted((a, b) => b.id - a.id);
   return arr
     .map(
@@ -38,7 +42,9 @@ export const renderListMarkup = (projects, key, librariesMarkup) => {
 		  </ul>
 		  <ul class="libraries-list"></ul>
 		</div>
-		<div class="libraries ${key}Libraries">Libraries ${space}▼${librariesMarkup(libraries)}</div>
+		<div class="libraries ${key}Libraries">Libraries ${space}▼${librariesMarkup(
+              libraries
+            )}</div>
 		<div class="links-container">
 		  <a class="project-link" href="${codeLink}" target="_blank" rel="noopener noreferrer">Code</a>
 		  <a class="project-link" href="${siteLink}" target="_blank" rel="noopener noreferrer">Preview</a>

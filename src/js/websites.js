@@ -16,7 +16,7 @@ websitesEl.insertAdjacentHTML(
   renderListMarkup(projectArr, websitesKey, librariesMarkup)
 );
 
-pagination(websitesEl, websitesPagination);
-
 const librariesWebsitesBtn = document.querySelectorAll('.websitesLibraries');
 openLibraries(librariesWebsitesBtn);
+
+pagination(websitesEl, websitesPagination, librariesWebsitesBtn);

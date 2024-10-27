@@ -18,7 +18,7 @@ webGamesEl.insertAdjacentHTML(
   renderListMarkup(projectArr, webGamesKey, librariesMarkup)
 );
 
-pagination(webGamesEl, webGamesPagination);
-
 const librariesWebGamesBtn = document.querySelectorAll('.web-gamesLibraries');
-openLibraries(librariesWebGamesBtn)
+openLibraries(librariesWebGamesBtn);
+
+pagination(webGamesEl, webGamesPagination, librariesWebGamesBtn);

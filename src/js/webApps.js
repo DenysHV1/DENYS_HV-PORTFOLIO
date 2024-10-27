@@ -17,7 +17,7 @@ webAppsEl.insertAdjacentHTML(
   renderListMarkup(projectArr, webAppsKey, librariesMarkup)
 );
 
-pagination(webAppsEl, webAppsPagination);
-
 const librariesWebAppsBtn = document.querySelectorAll('.web-appsLibraries');
 openLibraries(librariesWebAppsBtn);
+
+pagination(webAppsEl, webAppsPagination, librariesWebAppsBtn);

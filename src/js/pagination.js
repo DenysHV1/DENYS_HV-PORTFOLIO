@@ -1,4 +1,4 @@
-export const pagination = (list, listBtn) => {
+export const pagination = (list, listBtn, librariesList) => {
   const elements = list.children.length;
   const pagesArr = [];
   const listItems = list.querySelectorAll('.pages-list-item');
@@ -34,6 +34,11 @@ export const pagination = (list, listBtn) => {
     if (e.target.nodeName !== 'BUTTON') {
       return;
     }
+    librariesList.forEach(element => {
+      if (Number(element.children.length) > 0) {
+        element.classList.remove('open');
+      }
+    });
     page = Number(e.target.dataset.num);
     showItem(page);
   });

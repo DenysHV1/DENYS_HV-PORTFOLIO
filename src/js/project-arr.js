@@ -25,7 +25,7 @@ import homeOfTheBestFood from '../img/js/SPL_home-of-the-best-food.jpg';
 import ticTacToe from '../img/js/tic-tac-toe.jpg';
 import mechanicalWatch from '../img/js/time-info.jpg';
 import teamPortfolio from '../img/js/team-portfolio-js.jpg';
-import oldPortfolio from '../img/js/old-portfolio.jpg'
+import oldPortfolio from '../img/js/old-portfolio.jpg';
 
 import colorPaletteReact from '../img/react/color-palette-react.jpg';
 import reactTodoList from '../img/react/todoList-react.jpg';

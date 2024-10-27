@@ -15,4 +15,3 @@ export const refs = {
   webAppsPagination: document.querySelector('.web-apps-pagination-js'),
   webGamesPagination: document.querySelector('.web-games-pagination-js'),
 };
-

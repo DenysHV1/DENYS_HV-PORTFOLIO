@@ -18,7 +18,9 @@ componentsEl.insertAdjacentHTML(
   renderListMarkup(projectArr, componentsKey, librariesMarkup)
 );
 
-pagination(componentsEl, componentsPagination);
+const librariesComponentsBtn = document.querySelectorAll(
+  '.componentsLibraries'
+);
+openLibraries(librariesComponentsBtn);
 
-const librariesComponentsBtn = document.querySelectorAll('.componentsLibraries');
-openLibraries(librariesComponentsBtn)
+pagination(componentsEl, componentsPagination, librariesComponentsBtn);

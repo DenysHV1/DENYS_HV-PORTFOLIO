@@ -34,7 +34,7 @@
   text-transform: uppercase;
   color: #292929;
   transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover {
+  &:hover:focus {
     transform: scale(1.05);
   }
   span {
@@ -150,7 +150,7 @@ input.checkbox:checked ~ * div.box {
 
 .close-modal_svg {
   transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover {
+  &:hover:focus {
     fill: #00b068;
   }
 }
@@ -202,6 +202,22 @@ input.checkbox:checked ~ * div.box {
   justify-content: center;
   border-radius: 5px;
   background-color: #00b068;
+  transition:  transform,  box-shadow 350ms, 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-link:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.socials-link:focus {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.socials-link:active {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .git {
