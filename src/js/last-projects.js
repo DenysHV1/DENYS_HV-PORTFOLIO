@@ -94,7 +94,7 @@ export function lastProjectsSlider() {
       stopOnLastSlide: false,
       disableOnInteraction: false,
     },
-    speed: 1600,
+    speed: 400,
     direction: 'horizontal',
     effect: 'coverflow',
     coverflowEffect: {
