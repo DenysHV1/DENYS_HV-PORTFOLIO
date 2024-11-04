@@ -33,6 +33,7 @@ import pokemonsReact from '../img/react/pokemon-react.jpg';
 import reactHW2 from '../img/react/goit-react-hw-02.jpg';
 import reactHW3 from '../img/react/goit-react-hw-03.jpg';
 import reactHW4 from '../img/react/goit-react-hw-04.jpg';
+import reactHW5 from '../img/react/filmMix-hw-react-5.jpg';
 
 export const projectArr = [
   {
@@ -499,6 +500,29 @@ export const projectArr = [
       {
         name: 'react-modal',
         link: 'https://github.com/reactjs/react-modal?tab=readme-ov-file#examples',
+      },
+      { name: 'axios', link: 'https://axios-http.com/' },
+      { name: 'React Hot Toast', link: 'https://react-hot-toast.com/' },
+    ],
+  },
+  {
+    name: 'Film mix info',
+    category: 'api-visuals',
+    status: true,
+    imgPreview: reactHW5,
+    codeLink: 'https://github.com/DenysHV1/goit-react-hw-05',
+    siteLink: 'https://goit-react-hw-05-sooty-rho.vercel.app/',
+    technology1: 'React',
+    technology2: 'css',
+    id: 34,
+    libraries: [
+      {
+        name: 'react-loader-spinner',
+        link: 'https://github.com/mhnpd/react-loader-spinner',
+      },
+      {
+        name: 'react-router',
+        link: 'https://reactrouter.com/en/main',
       },
       { name: 'axios', link: 'https://axios-http.com/' },
       { name: 'React Hot Toast', link: 'https://react-hot-toast.com/' },
