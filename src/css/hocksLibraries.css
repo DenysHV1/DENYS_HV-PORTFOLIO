@@ -27,16 +27,25 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-width: 300px;
+  min-height: 135px;
 }
 
 .item-from_link {
   border-bottom: 2px solid #00b068;
   font-size: 20px;
   font-weight: 300;
-  font-family: 'Impact', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(95, 19, 188, 0.581);
+  border-radius: 5px;
+  padding: 2px 5px;
   letter-spacing: 0.07em;
   color: white;
   margin-top: 10px;
+}
+
+.libraries-link{
+  background-color: rgba(25, 224, 48, 0.4);
 }
 
 .item-set {
@@ -57,4 +66,7 @@
 
 .item-from {
   color: white;
+  border-bottom: 2px solid #00b068;
+  text-align: center;
+  margin-bottom: 10px;
 }

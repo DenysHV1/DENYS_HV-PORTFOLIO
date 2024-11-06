@@ -74,7 +74,7 @@ export const librariesArr = [
     name: 'flatpickr',
     link: 'https://www.npmjs.com/package/flatpickr',
     id: 2,
-    set: '',
+    set: 'npm install flatpickr',
   },
   {
     for: 'Universal',
@@ -123,7 +123,7 @@ export const librariesArr = [
     name: 'nanoid',
     link: 'https://www.npmjs.com/package/nanoid',
     id: 9,
-    set: '',
+    set: 'npm install nanoid',
   },
   {
     for: 'React',

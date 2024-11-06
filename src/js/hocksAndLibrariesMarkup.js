@@ -29,7 +29,7 @@ const setLibrariesMarkup = () => {
     .map(
       ({ name, id, link, set }) => `<li class="hocksLibraries-item" id="${id}">
 	  <p class="item-number">${id}</p>
-	  <a class="item-from_link" href="${link}" target= "_blank" rel="noopener noreferrer">▶ ${name}</a>
+	  <a class="item-from_link libraries-link" href="${link}" target= "_blank" rel="noopener noreferrer">▶ ${name}</a>
 	  <p class="item-set">${set}</p>
 	  </li>`
     )
