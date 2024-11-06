@@ -27,13 +27,23 @@ export const pagination = (list, listBtn, librariesList) => {
       )
       .join('');
   }
-
   listBtn.insertAdjacentHTML('beforeend', renderPagesBtn(pagesArr));
 
+  
   listBtn.addEventListener('click', e => {
     if (e.target.nodeName !== 'BUTTON') {
       return;
     }
+
+    //отображение активного номера проекта
+    [...listBtn.children].forEach(item => {
+      if(item.classList.contains('active')){
+        item.classList.remove('active')
+      } 
+    })
+    e.target.classList.add('active');
+    //
+
     librariesList.forEach(element => {
       if (Number(element.children.length) > 0) {
         element.classList.remove('open');

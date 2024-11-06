@@ -39,4 +39,29 @@ export function header() {
       localStorage.setItem('theme', 'light');
     }
   });
+
+
+  const menuLinkAll = document.querySelectorAll('.menu-link');
+  menuLinkAll.forEach((link) => {
+    link.addEventListener('click', () => {
+
+  
+      // Убираем подчеркивание у всех ссылок перед установкой
+      menuLinkAll.forEach((link) => link.classList.remove('active'));
+      // Добавляем класс активной ссылке
+      link.classList.add('active');
+      // Сохраняем выбранную ссылку в localStorage
+      localStorage.setItem('activeLink', link.textContent);
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    const activeLink = localStorage.getItem('activeLink');
+    if (activeLink) {
+      menuLinkAll.forEach((link) => {
+        if (link.textContent === activeLink) {
+          link.classList.add('active');
+        }
+      });
+    }
+  });
 }

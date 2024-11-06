@@ -356,3 +356,12 @@ body.dark-theme {
 
 }
 /*todo------------------- theme */
+
+.menu-link.active{
+  border-bottom: 2px solid #00b068;
+}
+
+.pagination-btn.active{
+  border-bottom: 2px solid #00b068;
+}
+
