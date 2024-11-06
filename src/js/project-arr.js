@@ -525,7 +525,6 @@ export const projectArr = [
         link: 'https://reactrouter.com/en/main',
       },
       { name: 'axios', link: 'https://axios-http.com/' },
-      { name: 'React Hot Toast', link: 'https://react-hot-toast.com/' },
     ],
   },
 ];

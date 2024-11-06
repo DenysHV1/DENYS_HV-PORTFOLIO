@@ -237,6 +237,10 @@ input.checkbox:checked ~ * div.box {
   fill: #000000;
 }
 
+.menu-link-hooks{
+  display: none;
+}
+
 @media screen and (min-width: 360px) {
   .header-logo {
     font-size: 26px;
@@ -249,6 +253,13 @@ input.checkbox:checked ~ * div.box {
   }
   .header-inner-bottom {
     display: flex;
+  }
+
+  .menu-link-hooks{
+    display: flex;
+    align-self: flex-start;
+    font-style: italic;
+    color: #000000;
   }
 
   .menu-body {
@@ -342,5 +353,6 @@ body.dark-theme {
   .pagination-btn{
     color: #fff;
   }
+
 }
 /*todo------------------- theme */
