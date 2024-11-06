@@ -1,2 +1,2 @@
-import{h as a,p as s}from"./assets/header-DU1iPAj6.js";import{r as i,o,p as n,a as t,l as b}from"./assets/openLibraries-D_dGUL92.js";a();const{webGamesEl:e,webGamesKey:m,webGamesPagination:p}=t;e.insertAdjacentHTML("beforeend",i(s,m,b));const r=document.querySelectorAll(".web-gamesLibraries");o(r);n(e,p,r);
+import{h as a}from"./assets/header-BcrsyD0G.js";import{p as s}from"./assets/project-arr-nlKO3b8n.js";import{r as i,o,p as t,a as n,l as m}from"./assets/openLibraries-D_dGUL92.js";a();const{webGamesEl:e,webGamesKey:b,webGamesPagination:p}=n;e.insertAdjacentHTML("beforeend",i(s,b,m));const r=document.querySelectorAll(".web-gamesLibraries");o(r);t(e,p,r);
 //# sourceMappingURL=web-games.js.map
