@@ -64,4 +64,15 @@ export function header() {
       });
     }
   });
+
+  const headerLogo = document.querySelectorAll('.header-logo');
+  console.log(headerLogo);
+
+  headerLogo.forEach(logo => {
+    logo.addEventListener('click', () => {
+      localStorage.removeItem('activeLink');
+    })
+    
+  })
+  
 }
