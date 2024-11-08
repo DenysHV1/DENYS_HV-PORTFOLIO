@@ -51,11 +51,11 @@ export function header() {
       // Добавляем класс активной ссылке
       link.classList.add('active');
       // Сохраняем выбранную ссылку в localStorage
-      localStorage.setItem('activeLink', link.textContent);
+      sessionStorage.setItem('activeLink', link.textContent);
     });
   });
   document.addEventListener('DOMContentLoaded', () => {
-    const activeLink = localStorage.getItem('activeLink');
+    const activeLink = sessionStorage.getItem('activeLink');
     if (activeLink) {
       menuLinkAll.forEach((link) => {
         if (link.textContent === activeLink) {
@@ -70,7 +70,7 @@ export function header() {
 
   headerLogo.forEach(logo => {
     logo.addEventListener('click', () => {
-      localStorage.removeItem('activeLink');
+      sessionStorage.removeItem('activeLink');
     })
     
   })
