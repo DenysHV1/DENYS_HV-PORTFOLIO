@@ -34,6 +34,7 @@ import reactHW2 from '../img/react/goit-react-hw-02.jpg';
 import reactHW3 from '../img/react/goit-react-hw-03.jpg';
 import reactHW4 from '../img/react/goit-react-hw-04.jpg';
 import reactHW5 from '../img/react/filmMix-hw-react-5.jpg';
+import reactHW6 from '../img/react/contactbook-redux.jpg';
 
 export const projectArr = [
   {
@@ -525,6 +526,27 @@ export const projectArr = [
         link: 'https://reactrouter.com/en/main',
       },
       { name: 'axios', link: 'https://axios-http.com/' },
+    ],
+  },
+  {
+    name: 'Contact Book',
+    category: 'web-apps',
+    status: true,
+    imgPreview: reactHW6,
+    codeLink: 'https://github.com/DenysHV1/goit-react-hw-06',
+    siteLink: 'https://goit-react-hw-06-beta-puce.vercel.app/',
+    technology1: 'React, Redux',
+    technology2: 'css',
+    id: 35,
+    libraries: [
+      {
+        name: 'redux-persist',
+        link: 'https://www.npmjs.com/package/redux-persist',
+      },
+      {
+        name: 'redux',
+        link: 'https://react-redux.js.org/',
+      },
     ],
   },
 ];

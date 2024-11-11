@@ -59,6 +59,18 @@ export const hocks = [
     id: 10,
     from: 'from "react-router-dom"',
   },
+  {
+    name: 'useSelector',
+    link: 'https://react-redux.js.org/api/hooks#useselector',
+    id: 11,
+    from: 'from "react-redux"',
+  },
+  {
+    name: 'useDispatch',
+    link: 'https://react-redux.js.org/api/hooks#usedispatch',
+    id: 12,
+    from: 'from "react-redux"',
+  },
 ];
 
 export const librariesArr = [
@@ -159,5 +171,19 @@ export const librariesArr = [
     link: 'https://react-icons.github.io/react-icons/',
     id: 14,
     set: 'npm install react-icons',
+  },
+  {
+    for: 'React-Redux',
+    name: 'Redux',
+    link: 'https://react-redux.js.org/',
+    id: 15,
+    set: 'npm install react-redux',
+  },
+  {
+    for: 'React-Redux',
+    name: 'Redux Persist',
+    link: 'https://www.npmjs.com/package/redux-persist',
+    id: 16,
+    set: 'npm install redux-persist, npm install @reduxjs/toolkit',
   },
 ];
