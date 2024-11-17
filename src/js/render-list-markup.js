@@ -24,6 +24,7 @@ export const renderListMarkup = (projects, key, librariesMarkup) => {
         siteLink,
         technology1,
         technology2,
+        technology3,
         libraries,
       }) =>
         status && category === key
@@ -39,6 +40,7 @@ export const renderListMarkup = (projects, key, librariesMarkup) => {
 		  <ul class="technology-list">
 			<li class="technology-item">${technology1}</li>
 			<li class="technology-item">${technology2}</li>
+      <li class="technology-item">${technology3}</li>
 		  </ul>
 		  <ul class="libraries-list"></ul>
 		</div>

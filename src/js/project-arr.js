@@ -35,6 +35,7 @@ import reactHW3 from '../img/react/goit-react-hw-03.jpg';
 import reactHW4 from '../img/react/goit-react-hw-04.jpg';
 import reactHW5 from '../img/react/filmMix-hw-react-5.jpg';
 import reactHW6 from '../img/react/contactbook-redux.jpg';
+import reactHW7 from '../img/react/contactList-beckend.jpg';
 
 export const projectArr = [
   {
@@ -535,8 +536,9 @@ export const projectArr = [
     imgPreview: reactHW6,
     codeLink: 'https://github.com/DenysHV1/goit-react-hw-06',
     siteLink: 'https://goit-react-hw-06-beta-puce.vercel.app/',
-    technology1: 'React, Redux',
-    technology2: 'css',
+    technology1: 'React',
+    technology2: 'Redux',
+    technology3: 'css',
     id: 35,
     libraries: [
       {
@@ -547,6 +549,26 @@ export const projectArr = [
         name: 'redux',
         link: 'https://react-redux.js.org/',
       },
+      { name: 'nanoid', link: 'https://www.npmjs.com/package/nanoid' },
+    ],
+  },
+  {
+    name: 'Contact Book with backend',
+    category: 'web-apps',
+    status: true,
+    imgPreview: reactHW7,
+    codeLink: 'https://github.com/DenysHV1/goit-react-hw-07',
+    siteLink: 'https://goit-react-hw-07-ten-ivory.vercel.app/',
+    technology1: 'React',
+    technology2: 'Redux',
+    technology2: 'css',
+    id: 36,
+    libraries: [
+      {
+        name: 'redux',
+        link: 'https://react-redux.js.org/',
+      },
+      { name: 'axios', link: 'https://axios-http.com/' },
     ],
   },
 ];
