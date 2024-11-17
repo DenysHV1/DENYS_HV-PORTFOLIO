@@ -561,7 +561,7 @@ export const projectArr = [
     siteLink: 'https://goit-react-hw-07-ten-ivory.vercel.app/',
     technology1: 'React',
     technology2: 'Redux',
-    technology2: 'css',
+    technology3: 'css',
     id: 36,
     libraries: [
       {

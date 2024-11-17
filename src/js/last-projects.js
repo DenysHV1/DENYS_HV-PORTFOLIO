@@ -20,6 +20,7 @@ export function lastProjects(projectArr, lastProjectsEl) {
           siteLink,
           technology1,
           technology2,
+          technology3,
         }) => {
           if (status && id > maxIdx - 10) {
             return `
@@ -36,6 +37,7 @@ export function lastProjects(projectArr, lastProjectsEl) {
     <div class="project-item-info-left">
         <p class="technology">${technology1}</p>
         <p class="technology">${technology2}</p>
+        <p class="technology">${technology3}</p>
     </div>
     <div class="project-item-info-right">
       <a href="${siteLink}" class="last-project-item-btn">Site</a>
