@@ -36,6 +36,7 @@ import reactHW4 from '../img/react/goit-react-hw-04.jpg';
 import reactHW5 from '../img/react/filmMix-hw-react-5.jpg';
 import reactHW6 from '../img/react/contactbook-redux.jpg';
 import reactHW7 from '../img/react/contactList-beckend.jpg';
+import dino from '../img/react/dino.jpg'
 
 export const projectArr = [
   {
@@ -569,6 +570,20 @@ export const projectArr = [
         link: 'https://react-redux.js.org/',
       },
       { name: 'axios', link: 'https://axios-http.com/' },
+    ],
+  },
+  {
+    name: 'Hard Dino',
+    category: 'web-games',
+    status: true,
+    imgPreview: dino,
+    codeLink: 'https://github.com/DenysHV1/dino-game',
+    siteLink: 'https://dino-game-green.vercel.app/',
+    technology1: 'React',
+    technology2: 'css',
+    technology3: '',
+    id: 37,
+    libraries: [
     ],
   },
 ];
