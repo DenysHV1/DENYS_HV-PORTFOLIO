@@ -1,2 +1,2 @@
-import{h as o}from"./assets/header-B4c5GArV.js";import{p as n}from"./assets/project-arr-DKbqMFmA.js";import{r as s,o as a,p as t,a as i,l as p}from"./assets/openLibraries-uSaQstZP.js";o();const{componentsEl:r,componentsKey:m,componentsPagination:c}=i;r.insertAdjacentHTML("beforeend",s(n,m,p));const e=document.querySelectorAll(".componentsLibraries");a(e);t(r,c,e);
+import{h as o}from"./assets/header-B4c5GArV.js";import{p as n}from"./assets/project-arr-3guEUKuO.js";import{r as s,o as a,p as t,a as i,l as p}from"./assets/openLibraries-uSaQstZP.js";o();const{componentsEl:r,componentsKey:m,componentsPagination:c}=i;r.insertAdjacentHTML("beforeend",s(n,m,p));const e=document.querySelectorAll(".componentsLibraries");a(e);t(r,c,e);
 //# sourceMappingURL=components.js.map
