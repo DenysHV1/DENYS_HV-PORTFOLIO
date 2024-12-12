@@ -72,14 +72,14 @@ export function header() {
   });
 }
 
-import me1 from '../img/about-me/about-me-2x.jpg';
-import me2 from '../img/about-me/me2.jpg';
+// import me1 from '../img/about-me/about-me-2x.jpg';
+// import me2 from '../img/about-me/me2.jpg';
 
-const photo = document.querySelector('#my-photo');
+// const photo = document.querySelector('#my-photo');
 
-photo.addEventListener('click', (e) => {
-  if (e.currentTarget.src !== me1) {
-    e.currentTarget.src = me2;
-  }
-  e.currentTarget.src = me1;
-});
+// photo.addEventListener('click', (e) => {
+//   if (e.currentTarget.src !== me1) {
+//     e.currentTarget.src = me2;
+//   }
+//   e.currentTarget.src = me1;
+// });
