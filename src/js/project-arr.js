@@ -663,4 +663,32 @@ export const projectArr = [
       { name: 'react-hot-toast', link: 'https://react-hot-toast.com/' },
     ],
   },
+  {
+    name: 'in progress now',
+    category: 'websites',
+    status: true,
+    imgPreview: 'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg',
+    codeLink: 'https://github.com/DenysHV1/react-cinema',
+    siteLink: 'https://react-cinema-one.vercel.app/',
+    technology1: 'React',
+    technology2: 'Redux',
+    technology3: 'css',
+    id: 39,
+    libraries: [
+      {
+        name: 'redux',
+        link: 'https://react-redux.js.org/',
+      },
+      {
+        name: 'react-router',
+        link: 'https://reactrouter.com/en/main',
+      },
+      {
+        name: 'react-icons',
+        link: 'https://react-icons.github.io/react-icons/',
+      },
+      { name: 'Formic', link: 'https://formik.org/' },
+      { name: 'axios', link: 'https://axios-http.com/' },
+    ],
+  },
 ];
