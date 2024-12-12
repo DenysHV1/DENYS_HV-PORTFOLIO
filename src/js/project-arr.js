@@ -36,7 +36,8 @@ import reactHW4 from '../img/react/goit-react-hw-04.jpg';
 import reactHW5 from '../img/react/filmMix-hw-react-5.jpg';
 import reactHW6 from '../img/react/contactbook-redux.jpg';
 import reactHW7 from '../img/react/contactList-beckend.jpg';
-import dino from '../img/react/dino.jpg'
+import dino from '../img/react/dino.jpg';
+import reactHW8 from '../img/react/YourOwnContactBook.jpg'
 
 export const projectArr = [
   {
@@ -48,6 +49,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/SPL_home-of-the-best-food/',
     technology1: 'html+css',
     technology2: '',
+    technology3: '',
     id: 1,
     libraries: [],
   },
@@ -60,6 +62,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/SPL_tea/',
     technology1: 'html+css',
     technology2: '',
+    technology3: '',
     id: 2,
     libraries: [],
   },
@@ -72,6 +75,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/SLP-Hydra/',
     technology1: 'html+css',
     technology2: '',
+    technology3: '',
     id: 3,
     libraries: [],
   },
@@ -84,6 +88,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/SPL_HM-Candler/',
     technology1: 'html+css',
     technology2: '',
+    technology3: '',
     id: 4,
     libraries: [],
   },
@@ -96,6 +101,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/SLP_FoodSta/',
     technology1: 'html+css',
     technology2: '',
+    technology3: '',
     id: 5,
     libraries: [],
   },
@@ -108,6 +114,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/goit-markup-hw-06/',
     technology1: 'html+css',
     technology2: '',
+    technology3: '',
     id: 6,
     libraries: [],
   },
@@ -120,6 +127,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/GLP1-super-team/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 7,
     libraries: [],
   },
@@ -133,6 +141,7 @@ export const projectArr = [
     technologyText: 'Technology: ',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 8,
     libraries: [],
   },
@@ -145,6 +154,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/sp-ball/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 9,
     libraries: [],
   },
@@ -157,6 +167,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/goit-js-hw-08/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 10,
     libraries: [
       {
@@ -174,6 +185,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/SP_test-form-1/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 11,
     libraries: [],
   },
@@ -187,6 +199,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/goit-js-hw-09/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 12,
     libraries: [
       {
@@ -204,6 +217,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/sp-card-form/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 13,
     libraries: [],
   },
@@ -216,6 +230,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/registration-form/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 14,
     libraries: [],
   },
@@ -228,6 +243,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/slider-fadeEffect-Vite/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 15,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/get-started' }],
   },
@@ -240,6 +256,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/slider-swiper-Vite/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 16,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/get-started' }],
   },
@@ -252,6 +269,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/goit-js-hw-10/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 17,
     libraries: [
       { name: 'flatpickr', link: 'https://www.npmjs.com/package/flatpickr' },
@@ -268,6 +286,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/time-info/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 18,
     libraries: [],
   },
@@ -280,6 +299,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/sp-TimeQuestion-vite/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 19,
     libraries: [],
   },
@@ -292,6 +312,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/tic-tac-toe/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 20,
     libraries: [],
   },
@@ -304,6 +325,7 @@ export const projectArr = [
     siteLink: 'https:// denyshv1.github.io/goit-js-hw-11/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 21,
     libraries: [
       { name: 'izitoast', link: 'https://www.npmjs.com/package/izitoast' },
@@ -322,6 +344,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/sp-SearchVideoPixabay-vite/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 22,
     libraries: [
       { name: 'izitoast', link: 'https://www.npmjs.com/package/izitoast' },
@@ -336,6 +359,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/goit-js-hw-12/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 23,
     libraries: [
       { name: 'izitoast', link: 'https://www.npmjs.com/package/izitoast' },
@@ -355,6 +379,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/goit-js-hw-12v2/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 24,
     libraries: [
       { name: 'izitoast', link: 'https://www.npmjs.com/package/izitoast' },
@@ -375,6 +400,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/SP-BlueCollar-Vite/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 25,
     libraries: [
       {
@@ -392,6 +418,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/old-portfolio/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 26,
     libraries: [
       {
@@ -410,6 +437,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/color-palette-react/',
     technology1: 'React',
     technology2: 'css',
+    technology3: '',
     id: 27,
     libraries: [],
   },
@@ -422,6 +450,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/todoList-react/',
     technology1: 'React',
     technology2: 'css',
+    technology3: '',
     id: 28,
     libraries: [],
   },
@@ -434,6 +463,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/pokemons-react/',
     technology1: 'React',
     technology2: 'css',
+    technology3: '',
     id: 29,
     libraries: [],
   },
@@ -446,6 +476,7 @@ export const projectArr = [
     siteLink: 'https://denyshv1.github.io/team-portfolio-js/',
     technology1: 'html+css',
     technology2: 'JavaScript',
+    technology3: '',
     id: 30,
     libraries: [
       { name: 'izitoast', link: 'https://www.npmjs.com/package/izitoast' },
@@ -466,6 +497,7 @@ export const projectArr = [
     siteLink: 'https://goit-react-hw-02-bay-nine.vercel.app/',
     technology1: 'React',
     technology2: 'css',
+    technology3: '',
     id: 31,
     libraries: [],
   },
@@ -478,6 +510,7 @@ export const projectArr = [
     siteLink: 'https://goit-react-hw-03-weld-eight.vercel.app/',
     technology1: 'React',
     technology2: 'css',
+    technology3: '',
     id: 32,
     libraries: [
       { name: 'formik', link: 'https://formik.org/' },
@@ -494,6 +527,7 @@ export const projectArr = [
     siteLink: 'https://goit-react-hw-04-henna-seven.vercel.app/',
     technology1: 'React',
     technology2: 'css',
+    technology3: '',
     id: 33,
     libraries: [
       {
@@ -517,6 +551,7 @@ export const projectArr = [
     siteLink: 'https://goit-react-hw-05-sooty-rho.vercel.app/',
     technology1: 'React',
     technology2: 'css',
+    technology3: '',
     id: 34,
     libraries: [
       {
@@ -528,6 +563,11 @@ export const projectArr = [
         link: 'https://reactrouter.com/en/main',
       },
       { name: 'axios', link: 'https://axios-http.com/' },
+      { name: 'Formic', link: 'https://formik.org/' },
+      {
+        name: 'Yup',
+        link: 'https://github.com/jquense/yup?tab=readme-ov-file#yup',
+      },
     ],
   },
   {
@@ -583,7 +623,44 @@ export const projectArr = [
     technology2: 'css',
     technology3: '',
     id: 37,
+    libraries: [],
+  },
+  {
+    name: 'Your own contact book',
+    category: 'web-apps',
+    status: true,
+    imgPreview: reactHW8,
+    codeLink: 'https://github.com/DenysHV1/goit-react-hw-08',
+    siteLink: 'https://goit-react-hw-08-omega-roan.vercel.app/',
+    technology1: 'React',
+    technology2: 'css',
+    technology3: 'Redux',
+    id: 38,
     libraries: [
+      {
+        name: 'redux',
+        link: 'https://react-redux.js.org/',
+      },
+      { name: 'axios', link: 'https://axios-http.com/' },
+      {
+        name: 'redux-persist',
+        link: 'https://www.npmjs.com/package/redux-persist',
+      },
+      {
+        name: 'react-router',
+        link: 'https://reactrouter.com/en/main',
+      },
+      {
+        name: 'react-icons',
+        link: 'https://react-icons.github.io/react-icons/',
+      },
+      { name: 'Formic', link: 'https://formik.org/' },
+      {
+        name: 'Yup',
+        link: 'https://github.com/jquense/yup?tab=readme-ov-file#yup',
+      },
+      { name: 'nanoid', link: 'https://www.npmjs.com/package/nanoid' },
+      { name: 'react-hot-toast', link: 'https://react-hot-toast.com/' },
     ],
   },
 ];
