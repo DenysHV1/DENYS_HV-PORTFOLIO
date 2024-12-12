@@ -669,7 +669,7 @@ export const projectArr = [
     status: true,
     imgPreview: 'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg',
     codeLink: 'https://github.com/DenysHV1/react-cinema',
-    siteLink: 'https://react-cinema-one.vercel.app/',
+    siteLink: 'https://404-black-rho.vercel.app/',
     technology1: 'React',
     technology2: 'Redux',
     technology3: 'css',
