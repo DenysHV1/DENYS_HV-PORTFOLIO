@@ -139,7 +139,7 @@ export const librariesArr = [
   },
   {
     for: 'React',
-    name: 'react-loader-spinner',
+    name: 'react-spinner',
     link: 'https://github.com/mhnpd/react-loader-spinner',
     id: 10,
     set: 'npm install react-spinners',
@@ -184,6 +184,20 @@ export const librariesArr = [
     name: 'Redux Persist',
     link: 'https://www.npmjs.com/package/redux-persist',
     id: 16,
-    set: 'npm install redux-persist, npm install @reduxjs/toolkit',
+    set: 'npm install redux-persist',
+  },
+  {
+    for: 'React',
+    name: 'Redux Router',
+    link: 'https://reactrouter.com/',
+    id: 17,
+    set: 'npm install react-router',
+  },
+  {
+    for: 'React',
+    name: 'React loader spinner',
+    link: 'https://mhnpd.github.io/react-loader-spinner/docs/intro/',
+    id: 18,
+    set: 'npm install react-loader-spinner',
   },
 ];
