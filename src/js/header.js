@@ -40,14 +40,11 @@ export function header() {
     }
   });
 
-
   const menuLinkAll = document.querySelectorAll('.menu-link');
-  menuLinkAll.forEach((link) => {
+  menuLinkAll.forEach(link => {
     link.addEventListener('click', () => {
-
-  
       // Убираем подчеркивание у всех ссылок перед установкой
-      menuLinkAll.forEach((link) => link.classList.remove('active'));
+      menuLinkAll.forEach(link => link.classList.remove('active'));
       // Добавляем класс активной ссылке
       link.classList.add('active');
       // Сохраняем выбранную ссылку в localStorage
@@ -57,7 +54,7 @@ export function header() {
   document.addEventListener('DOMContentLoaded', () => {
     const activeLink = sessionStorage.getItem('activeLink');
     if (activeLink) {
-      menuLinkAll.forEach((link) => {
+      menuLinkAll.forEach(link => {
         if (link.textContent === activeLink) {
           link.classList.add('active');
         }
@@ -71,8 +68,18 @@ export function header() {
   headerLogo.forEach(logo => {
     logo.addEventListener('click', () => {
       sessionStorage.removeItem('activeLink');
-    })
-    
-  })
-  
+    });
+  });
 }
+
+import me1 from '../img/about-me/about-me-2x.jpg';
+import me2 from '../img/about-me/me2.jpg';
+
+const photo = document.querySelector('#my-photo');
+
+photo.addEventListener('click', (e) => {
+  if (e.currentTarget.src !== me1) {
+    e.currentTarget.src = me2;
+  }
+  e.currentTarget.src = me1;
+});
