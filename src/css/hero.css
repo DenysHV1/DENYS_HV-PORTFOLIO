@@ -61,7 +61,6 @@
     max-width: 45px;
     max-height: 50px;
     overflow: hidden;
-    border-radius: 8px;
   }
 }
 
@@ -106,9 +105,9 @@
   .hero-img-men img {
     margin-left: 16px;
     overflow: hidden;
-    border-radius: 16px;
     max-width: 85%;
     max-height: 100%;
+    object-fit: contain;
   }
 }
 
