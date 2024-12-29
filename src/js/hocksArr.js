@@ -235,10 +235,18 @@ export const librariesArr = [
     purpose: 'production'
   },
   {
+    forSkill: 'all',
+    name: 'Modern normalize',
+    link: 'https://github.com/sindresorhus/modern-normalize#readme',
+    id: 21,
+    set: 'npm i modern-normalize',
+    purpose: 'production'
+  },
+  {
     forSkill: 'node',
     name: 'express',
     link: 'https://www.npmjs.com/package/express',
-    id: 21,
+    id: 22,
     set: 'npm i express',
     purpose: 'production'
   },
@@ -246,7 +254,7 @@ export const librariesArr = [
     forSkill: 'node',
     name: '@faker-js/faker',
     link: 'https://www.npmjs.com/package/@faker-js/faker',
-    id: 22,
+    id: 23,
     set: 'npm i @faker-js/faker',
     purpose: 'development'
   },
@@ -254,7 +262,7 @@ export const librariesArr = [
     forSkill: 'all',
     name: 'eslint',
     link: 'https://www.npmjs.com/package/eslint',
-    id: 23,
+    id: 24,
     set: 'npm i eslint',
     purpose: 'development'
   },
@@ -262,7 +270,7 @@ export const librariesArr = [
     forSkill: 'node',
     name: 'cors',
     link: 'https://www.npmjs.com/package/cors',
-    id: 24,
+    id: 25,
     set: 'npm i cors',
     purpose: 'development'
   },
