@@ -172,7 +172,7 @@ export const librariesArr = [
   },
   {
     forSkill: 'react',
-    name: 'react-router',
+    name: 'React router',
     link: 'https://reactrouter.com/en/main',
     id: 13,
     set: 'npm i react-router',
