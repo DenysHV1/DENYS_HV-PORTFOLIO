@@ -24,26 +24,24 @@ hocksListEl.insertAdjacentHTML('beforeend', setHooksMarkup());
 import { librariesArr } from './hocksArr';
 const librariesListEl = document.querySelector('.libraries-list-js');
 
-
 const styleName = (forSkill, name) => {
   switch (forSkill) {
-    case "all":
-      return "all-name"
-    case "react":
-      return name === "React router" ? "react-name-router" : "react-name";
-    case "js":
-      return "js-name"
-    case "redux":
-      return name === "Redux toolkit" ? "redux-name-toolkit": "redux-name"
-    case "node":
-      return name === "express" ? "node-name-express" :"node-name"
+    case 'all':
+      return 'all-name';
+    case 'react':
+      return name === 'React router' ? 'react-name-router' : 'react-name';
+    case 'js':
+      return 'js-name';
+    case 'redux':
+      return name === 'Redux toolkit' ? 'redux-name-toolkit' : 'redux-name';
+    case 'node':
+      return name === 'express' ? 'node-name-express' : 'node-name';
     default:
       return {};
   }
 };
-const allBtns = document.querySelectorAll('button');
 
-let activeFilter = "all";
+let activeFilter = 'all';
 
 // Ссылки на кнопки
 const allBtnEl = document.querySelector('.all-js');
@@ -52,55 +50,56 @@ const reactBtnEl = document.querySelector('.react-js');
 const reduxBtnEl = document.querySelector('.redux-js');
 const nodeBtnEl = document.querySelector('.node-js');
 
-
 allBtnEl.addEventListener('click', () => {
-  activeFilter = "all";
+  activeFilter = 'all';
   renderLibraries();
 });
 
 jsBtnEl.addEventListener('click', () => {
-  activeFilter = "js";
+  activeFilter = 'js';
   renderLibraries();
 });
 
 reactBtnEl.addEventListener('click', () => {
-  activeFilter = "react";
+  activeFilter = 'react';
   renderLibraries();
 });
 
 reduxBtnEl.addEventListener('click', () => {
-  activeFilter = "redux";
+  activeFilter = 'redux';
   renderLibraries();
 });
 
 nodeBtnEl.addEventListener('click', () => {
-  activeFilter = "node";
+  activeFilter = 'node';
   renderLibraries();
 });
 
-
 const setLibrariesMarkup = () => {
   return librariesArr
-    .filter(({ forSkill }) => activeFilter === "all" || forSkill === activeFilter) // Фильтруем массив
+    .filter(
+      ({ forSkill }) => activeFilter === 'all' || forSkill === activeFilter
+    ) // Фильтруем массив
     .map(
       ({ name, id, link, set, purpose, forSkill }) => `
         <li class="hocksLibraries-item" id="${id}">
           <p class="item-number">${id}</p>
-          <h3>${forSkill}</h3>
-          <a class="item-from_link libraries-link" style="${styleName(forSkill)}" href="${link}" target="_blank" rel="noopener noreferrer">▶ ${name}</a>
+          <a class="item-from_link libraries-link ${styleName(
+            forSkill,
+            name
+          )}" href="${link}" target="_blank" rel="noopener noreferrer">▶ ${name}</a>
           <p class="item-set">${set}</p>
-          <p class="${purpose === "production" ? "purpose" : "purpose1"}">${purpose}</p>
+          <p class="${
+            purpose === 'production' ? 'purpose' : 'purpose1'
+          }">${purpose}</p>
         </li>`
     )
     .join('');
 };
 
-
 const renderLibraries = () => {
-  librariesListEl.innerHTML = "";
+  librariesListEl.innerHTML = '';
   librariesListEl.insertAdjacentHTML('beforeend', setLibrariesMarkup());
 };
 
-
 renderLibraries();
-
