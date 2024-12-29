@@ -274,4 +274,12 @@ export const librariesArr = [
     set: 'npm i cors',
     purpose: 'development'
   },
+  {
+    forSkill: 'react',
+    name: 'react-helmet-async',
+    link: 'https://www.npmjs.com/package/react-helmet-async',
+    id: 26,
+    set: 'npm i react-helmet-async',
+    purpose: 'production'
+  },
 ];
