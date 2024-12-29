@@ -70,3 +70,40 @@
   text-align: center;
   margin-bottom: 10px;
 }
+
+
+.all-name{
+  background-color: #ffffff41;
+}
+
+.react-name{
+  background-color: #3737fb;
+}
+
+.js-name{
+  background-color: rgb(11, 188, 34);
+}
+
+.redux-name{
+  background-color: #a168fc;
+}
+
+.node-name{
+  background-color: #3e7a38;
+}
+
+.purpose{
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #00b068 !important;
+  text-decoration: underline;
+}
+
+.purpose1{
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #5a11ec !important;
+  text-decoration: underline;
+}

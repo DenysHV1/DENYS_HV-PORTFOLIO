@@ -24,13 +24,33 @@ hocksListEl.insertAdjacentHTML('beforeend', setHooksMarkup());
 import { librariesArr } from './hocksArr';
 const librariesListEl = document.querySelector('.libraries-list-js');
 
+
+const styleName = (name) => {
+  switch (name) {
+    case "all":
+      return "all-name"
+    case "react":
+      return "react-name"
+    case "js":
+      return "js-name"
+    case "redux":
+      return "redux-name"
+    case "node":
+      return "node-name"
+    default:
+      return {};
+  }
+};
+
 const setLibrariesMarkup = () => {
   return librariesArr
     .map(
-      ({ name, id, link, set }) => `<li class="hocksLibraries-item" id="${id}">
+      ({ name, id, link, set, purpose, forSkill }) => `<li class="hocksLibraries-item" id="${id}">
 	  <p class="item-number">${id}</p>
-	  <a class="item-from_link libraries-link" href="${link}" target= "_blank" rel="noopener noreferrer">▶ ${name}</a>
+    <h3>${forSkill}</h3>
+	  <a class="item-from_link libraries-link ${styleName(forSkill)}"  href="${link}" target= "_blank" rel="noopener noreferrer">▶ ${name}</a>
 	  <p class="item-set">${set}</p>
+    <p class="${purpose === "production" ? "purpose" : "purpose1"}">${purpose}</p>
 	  </li>`
     )
     .join('');

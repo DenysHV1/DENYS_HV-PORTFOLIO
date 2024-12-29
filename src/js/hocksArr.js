@@ -75,164 +75,195 @@ export const hocks = [
 
 export const librariesArr = [
   {
-    for: 'for JavaScript',
+    forSkill: 'all',
     name: 'swiper',
     link: 'https://swiperjs.com/get-started',
     id: 1,
     set: 'npm i swiper',
+    purpose: 'production'
   },
   {
-    for: 'for JavaScript',
+    forSkill: 'js',
     name: 'flatpickr',
     link: 'https://www.npmjs.com/package/flatpickr',
     id: 2,
     set: 'npm i flatpickr',
+    purpose: 'production'
   },
   {
-    for: 'Universal',
+    forSkill: 'all',
     name: 'izitoast',
     link: 'https://www.npmjs.com/package/izitoast',
     id: 3,
     set: 'npm i izitoast',
+    purpose: 'production'
   },
   {
-    for: 'for JavaScript',
+    forSkill: 'js',
     name: 'simplelightbox',
     link: 'https://www.npmjs.com/package/simplelightbox',
     id: 4,
     set: 'npm i simplelightbox',
+    purpose: 'production'
   },
   {
-    for: 'Universal',
+    forSkill: 'all',
     name: 'axios',
     link: 'https://axios-http.com/',
     id: 5,
     set: 'npm i axios',
+    purpose: 'production'
   },
   {
-    for: 'for JavaScript',
+    forSkill: 'js',
     name: 'basicLightBox',
     link: 'https://www.jsdelivr.com/package/npm/basiclightbox',
     id: 6,
     set: 'npm i basiclightbox',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'react',
     name: 'formik',
     link: 'https://formik.org/',
     id: 7,
     set: 'npm i formik',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'react',
     name: 'yup',
     link: 'https://github.com/jquense/yup',
     id: 8,
     set: 'npm i yup',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'all',
     name: 'nanoid',
     link: 'https://www.npmjs.com/package/nanoid',
     id: 9,
     set: 'npm i nanoid',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'react',
     name: 'react-spinner',
     link: 'https://github.com/mhnpd/react-loader-spinner',
     id: 10,
     set: 'npm i react-spinners',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'react',
     name: 'react-modal',
     link: 'https://github.com/reactjs/react-modal?tab=readme-ov-file#examples',
     id: 11,
     set: 'npm i --save react-modal',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'react',
     name: 'React Hot Toast',
     link: 'https://react-hot-toast.com/',
     id: 12,
     set: 'npm i react-hot-toast',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'react',
     name: 'react-router',
     link: 'https://reactrouter.com/en/main',
     id: 13,
     set: 'npm i react-router',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'react',
     name: 'React Icons',
     link: 'https://react-icons.github.io/react-icons/',
     id: 14,
     set: 'npm i react-icons',
+    purpose: 'production'
   },
   {
-    for: 'React-Redux',
-    name: 'Redux',
-    link: 'https://react-redux.js.org/',
+    forSkill: 'redux',
+    name: 'Redux toolkit',
+    link: 'https://redux-toolkit.js.org/introduction/getting-started',
     id: 15,
-    set: 'npm i react-redux',
+    set: 'npm i @reduxjs/toolkit',
+    purpose: 'production'
   },
   {
-    for: 'React-Redux',
+    forSkill: 'redux',
+    name: 'React redux',
+    link: 'https://www.npmjs.com/package/react-redux',
+    id: 16,
+    set: 'npm i react-redux',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'redux',
     name: 'Redux Persist',
     link: 'https://www.npmjs.com/package/redux-persist',
-    id: 16,
-    set: 'npm i redux-persist',
-  },
-  {
-    for: 'React',
-    name: 'Redux Router',
-    link: 'https://reactrouter.com/',
     id: 17,
-    set: 'npm i react-router',
+    set: 'npm i redux-persist',
+    purpose: 'production'
   },
   {
-    for: 'React',
+    forSkill: 'react',
     name: 'React loader spinner',
     link: 'https://mhnpd.github.io/react-loader-spinner/docs/intro/',
     id: 18,
     set: 'npm i react-loader-spinner',
+    purpose: 'production'
   },
   {
-    for: 'Node',
+    forSkill: 'node',
     name: 'nodemon',
     link: 'https://www.npmjs.com/package/nodemon',
     id: 19,
     set: 'npm i nodemon',
+    purpose: 'development'
   },
   {
-    for: 'Node',
+    forSkill: 'all',
     name: 'moment',
     link: 'https://www.npmjs.com/package/moment',
     id: 20,
     set: 'npm i moment',
+    purpose: 'production'
   },
   {
-    for: 'Node',
+    forSkill: 'node',
     name: 'express',
     link: 'https://www.npmjs.com/package/express',
     id: 21,
     set: 'npm i express',
+    purpose: 'production'
   },
   {
-    for: 'Node',
+    forSkill: 'node',
     name: '@faker-js/faker',
     link: 'https://www.npmjs.com/package/@faker-js/faker',
     id: 22,
     set: 'npm i @faker-js/faker',
+    purpose: 'development'
   },
   {
-    for: 'All',
+    forSkill: 'all',
     name: 'eslint',
     link: 'https://www.npmjs.com/package/eslint',
     id: 23,
     set: 'npm i eslint',
+    purpose: 'development'
+  },
+  {
+    forSkill: 'node',
+    name: 'cors',
+    link: 'https://www.npmjs.com/package/cors',
+    id: 24,
+    set: 'npm i cors',
+    purpose: 'development'
   },
 ];
