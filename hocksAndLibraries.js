@@ -2,12 +2,11 @@ import{h as p}from"./assets/header-w_-tUodi.js";const l=[{name:"useState",link:"
 	<p class="item-number">${e}</p>
 	<p class="item-from">${n}</p>
 	<a class="item-from_link" href="${s}" target= "_blank" rel="noopener noreferrer">▶ ${r}</a>
-	</li>`).join("");d.insertAdjacentHTML("beforeend",u());const c=document.querySelector(".libraries-list-js"),k=(r,e)=>{switch(r){case"all":return"all-name";case"react":return e==="React router"?"react-name-router":"react-name";case"js":return"js-name";case"redux":return e==="Redux toolkit"?"redux-name-toolkit":"redux-name";case"node":return e==="express"?"node-name-express":"node-name";default:return{}}};document.querySelectorAll("button");let t="all";const f=document.querySelector(".all-js"),h=document.querySelector(".js-js"),w=document.querySelector(".react-js"),j=document.querySelector(".redux-js"),x=document.querySelector(".node-js");f.addEventListener("click",()=>{t="all",o()});h.addEventListener("click",()=>{t="js",o()});w.addEventListener("click",()=>{t="react",o()});j.addEventListener("click",()=>{t="redux",o()});x.addEventListener("click",()=>{t="node",o()});const g=()=>m.filter(({forSkill:r})=>t==="all"||r===t).map(({name:r,id:e,link:s,set:n,purpose:i,forSkill:a})=>`
+	</li>`).join("");d.insertAdjacentHTML("beforeend",u());const a=document.querySelector(".libraries-list-js"),k=(r,e)=>{switch(r){case"all":return"all-name";case"react":return e==="React router"?"react-name-router":"react-name";case"js":return"js-name";case"redux":return e==="Redux toolkit"?"redux-name-toolkit":"redux-name";case"node":return e==="express"?"node-name-express":"node-name";default:return{}}};let t="all";const f=document.querySelector(".all-js"),h=document.querySelector(".js-js"),w=document.querySelector(".react-js"),j=document.querySelector(".redux-js"),x=document.querySelector(".node-js");f.addEventListener("click",()=>{t="all",o()});h.addEventListener("click",()=>{t="js",o()});w.addEventListener("click",()=>{t="react",o()});j.addEventListener("click",()=>{t="redux",o()});x.addEventListener("click",()=>{t="node",o()});const g=()=>m.filter(({forSkill:r})=>t==="all"||r===t).map(({name:r,id:e,link:s,set:n,purpose:i,forSkill:c})=>`
         <li class="hocksLibraries-item" id="${e}">
           <p class="item-number">${e}</p>
-          <h3>${a}</h3>
-          <a class="item-from_link libraries-link" style="${k(a)}" href="${s}" target="_blank" rel="noopener noreferrer">▶ ${r}</a>
+          <a class="item-from_link libraries-link ${k(c,r)}" href="${s}" target="_blank" rel="noopener noreferrer">▶ ${r}</a>
           <p class="item-set">${n}</p>
           <p class="${i==="production"?"purpose":"purpose1"}">${i}</p>
-        </li>`).join(""),o=()=>{c.innerHTML="",c.insertAdjacentHTML("beforeend",g())};o();
+        </li>`).join(""),o=()=>{a.innerHTML="",a.insertAdjacentHTML("beforeend",g())};o();
 //# sourceMappingURL=hocksAndLibraries.js.map
