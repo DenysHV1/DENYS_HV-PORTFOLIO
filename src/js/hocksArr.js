@@ -287,7 +287,7 @@ export const librariesArr = [
     name: 'Pino http',
     link: 'https://github.com/pinojs/pino-http',
     id: 27,
-    set: 'npm install pino-http \n npm i --save-dev pino-pretty',
+    set: 'npm i pino-http &\n npm i -D pino-pretty',
     purpose: 'development'
   },
 ];
