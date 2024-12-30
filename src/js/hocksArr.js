@@ -290,4 +290,12 @@ export const librariesArr = [
     set: 'npm i pino-http &\n npm i -D pino-pretty',
     purpose: 'development'
   },
+  {
+    forSkill: 'node',
+    name: 'dotenv (for reading .env)',
+    link: 'https://www.npmjs.com/package/dotenv',
+    id: 28,
+    set: 'npm i dotenv',
+    purpose: 'production'
+  },
 ];
