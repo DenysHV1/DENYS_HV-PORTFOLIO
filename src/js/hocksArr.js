@@ -282,4 +282,12 @@ export const librariesArr = [
     set: 'npm i react-helmet-async',
     purpose: 'production'
   },
+  {
+    forSkill: 'node',
+    name: 'Pino http',
+    link: 'https://github.com/pinojs/pino-http',
+    id: 27,
+    set: 'npm install pino-http \n npm i --save-dev pino-pretty',
+    purpose: 'development'
+  },
 ];
