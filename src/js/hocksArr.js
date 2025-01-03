@@ -298,4 +298,12 @@ export const librariesArr = [
     set: 'npm i dotenv',
     purpose: 'production'
   },
+  {
+    forSkill: 'node',
+    name: 'mongoose',
+    link: 'https://www.npmjs.com/package/mongoose',
+    id: 29,
+    set: 'npm i mongoose',
+    purpose: 'production'
+  },
 ];
