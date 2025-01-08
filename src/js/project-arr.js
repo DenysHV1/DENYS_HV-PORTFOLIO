@@ -39,6 +39,7 @@ import reactHW7 from '../img/react/contactList-beckend.jpg';
 import dino from '../img/react/dino.jpg';
 import reactHW8 from '../img/react/YourOwnContactBook.jpg'
 import reactFilms from '../img/react/react-films.jpg'
+import weather from '../img/react/weather.jpg'
 
 const preview = 'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg'
 
@@ -685,6 +686,30 @@ export const projectArr = [
       {
         name: 'react-router',
         link: 'https://reactrouter.com/en/main',
+      },
+      {
+        name: 'react-icons',
+        link: 'https://react-icons.github.io/react-icons/',
+      },
+      { name: 'swiper', link: 'https://swiperjs.com/react' },
+      { name: 'axios', link: 'https://axios-http.com/' },
+    ],
+  },
+  {
+    name: 'Weather',
+    category: 'web-apps',
+    status: true,
+    imgPreview: weather,
+    codeLink: 'https://github.com/DenysHV1/DenVikWeather',
+    siteLink: 'https://den-vik-weather.vercel.app/',
+    technology1: 'React',
+    technology2: 'Redux',
+    technology3: 'css',
+    id: 40,
+    libraries: [
+      {
+        name: 'redux',
+        link: 'https://react-redux.js.org/',
       },
       {
         name: 'react-icons',
