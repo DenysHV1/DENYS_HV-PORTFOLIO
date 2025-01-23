@@ -306,4 +306,28 @@ export const librariesArr = [
     set: 'npm i mongoose',
     purpose: 'production'
   },
+  {
+    forSkill: 'react',
+    name: 'chart.js',
+    link: 'https://www.npmjs.com/package/chart.js',
+    id: 30,
+    set: 'npm i chart.js',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'react',
+    name: 'react-chartjs-2',
+    link: 'https://www.npmjs.com/package/react-chartjs-2',
+    id: 31,
+    set: 'npm i react-chartjs-2',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'react',
+    name: 'chartjs-plugin-datalabels',
+    link: 'https://www.npmjs.com/package/chartjs-plugin-datalabels',
+    id: 32,
+    set: 'npm i chartjs-plugin-datalabels',
+    purpose: 'production'
+  },
 ];

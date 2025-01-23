@@ -26,6 +26,7 @@ import ticTacToe from '../img/js/tic-tac-toe.jpg';
 import mechanicalWatch from '../img/js/time-info.jpg';
 import teamPortfolio from '../img/js/team-portfolio-js.jpg';
 import oldPortfolio from '../img/js/old-portfolio.jpg';
+import evoPlay from '../img/js/evoplay-img.jpg';
 
 import colorPaletteReact from '../img/react/color-palette-react.jpg';
 import reactTodoList from '../img/react/todoList-react.jpg';
@@ -37,11 +38,12 @@ import reactHW5 from '../img/react/filmMix-hw-react-5.jpg';
 import reactHW6 from '../img/react/contactbook-redux.jpg';
 import reactHW7 from '../img/react/contactList-beckend.jpg';
 import dino from '../img/react/dino.jpg';
-import reactHW8 from '../img/react/YourOwnContactBook.jpg'
-import reactFilms from '../img/react/react-films.jpg'
-import weather from '../img/react/weather.jpg'
+import reactHW8 from '../img/react/YourOwnContactBook.jpg';
+import reactFilms from '../img/react/react-films.jpg';
+import weather from '../img/react/weather.jpg';
 
-const preview = 'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg'
+const preview =
+  'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg';
 
 export const projectArr = [
   {
@@ -718,5 +720,18 @@ export const projectArr = [
       { name: 'swiper', link: 'https://swiperjs.com/react' },
       { name: 'axios', link: 'https://axios-http.com/' },
     ],
+  },
+  {
+    name: 'Merge cruise',
+    category: 'websites',
+    status: true,
+    imgPreview: evoPlay,
+    codeLink: 'https://github.com/DenysHV1/wingametraill',
+    siteLink: 'https://denyshv1.github.io/wingametraill/',
+    technology1: 'html+css',
+    technology2: 'JavaScript',
+    technology3: '',
+    id: 41,
+    libraries: [],
   },
 ];
