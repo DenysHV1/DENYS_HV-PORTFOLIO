@@ -32,13 +32,13 @@
   line-height: 100%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--text-color-white-t);
   transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover:focus {
     transform: scale(1.05);
   }
   span {
-    color: #00b068;
+    color: var(--main-color);
   }
 }
 
@@ -151,7 +151,7 @@ input.checkbox:checked ~ * div.box {
 .close-modal_svg {
   transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover:focus {
-    fill: #00b068;
+    fill: var(--main-color);
   }
 }
 
@@ -159,7 +159,7 @@ input.checkbox:checked ~ * div.box {
 
 .menu-link {
   white-space: nowrap;
-  color: #292929;
+  color: var(--text-color-white-t);
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
@@ -167,7 +167,7 @@ input.checkbox:checked ~ * div.box {
   transition: color, transform 350ms, 350ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   :focus {
-    color: #00b068;
+    color: var(--main-color);
     transform: scale(1.05);
   }
 }
@@ -175,8 +175,8 @@ input.checkbox:checked ~ * div.box {
 .socials_svg {
   display: inline-block;
   stroke-width: 0;
-  stroke: black;
-  fill: black;
+  stroke: var(--text-color-dark-t);
+  fill: var(--text-color-dark-t);
 }
 
 .socials {
@@ -201,7 +201,7 @@ input.checkbox:checked ~ * div.box {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background-color: #00b068;
+  background-color: var(--main-color);
   transition:  transform,  box-shadow 350ms, 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -224,7 +224,7 @@ input.checkbox:checked ~ * div.box {
   font-size: 22px;
   font-weight: 900;
   font-style: normal;
-  color: #000000;
+  color: var(--text-color-white-t);
 }
 
 .burger-menu {
@@ -234,7 +234,7 @@ input.checkbox:checked ~ * div.box {
 }
 
 .burger_svg {
-  fill: #000000;
+  fill: var(--text-color-white-t);
 }
 
 .menu-link-hooks{
@@ -259,7 +259,7 @@ input.checkbox:checked ~ * div.box {
     display: flex;
     align-self: flex-start;
     font-style: italic;
-    color: #000000;
+    color: var(--text-color-white-t);
   }
 
   .menu-body {
@@ -312,56 +312,56 @@ body.dark-theme {
   h2,
   h3,
   h4 {
-    color: #f0f0f0;
+    color: var(--text-color-dark-t);
   }
   /* header */
   .media-menu-inner {
     background-color: #1e2023;
   }
   .menu-icon span {
-    background-color: #f0f0f0;
+    background-color: var(--text-color-dark-t);
   }
   /* tech skills */
   .marquee {
-    background-color: #204136;
+  background-color: var(--skills-main-color);
   }
   .marquee__line {
-    color: #f0f0f0;
+    color: var(--text-color-dark-t);
   }
   .second_marquee__line {
     background-color: #2a2d32;
-    color: #14c57c;
+    color: var(--main-color);
   }
   .tech-second-dot::before {
-    background-color: #fff;
+    background-color: var(--text-color-dark-t);
   }
 
   .burger_svg {
-    stroke: #fff;
-    fill: #fff;
+    stroke: var(--text-color-dark-t);
+    fill: var(--text-color-dark-t);
   }
 
   .close-modal_svg {
-    stroke: #fff;
-    fill: #fff;
+    stroke: var(--text-color-dark-t);
+    fill: var(--text-color-dark-t);
   }
 
   .technology-item{
-    color: #fff;
+    color: var(--text-color-dark-t);
   }
 
   .pagination-btn{
-    color: #fff;
+    color: var(--text-color-dark-t);
   }
 
 }
 /*todo------------------- theme */
 
 .menu-link.active{
-  border-bottom: 2px solid #00b068;
+  border-bottom: 2px solid var(--main-color);
 }
 
 .pagination-btn.active{
-  border-bottom: 2px solid #00b068;
+  border-bottom: 2px solid var(--main-color);
 }
 

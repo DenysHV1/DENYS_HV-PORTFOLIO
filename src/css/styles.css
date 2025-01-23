@@ -20,3 +20,13 @@
 
 @import url('./pages.css');
 @import url('./hocksLibraries.css');
+
+
+:root{
+  --main-color: #623fff;
+  /* --main-color: #5d3bf6; */
+  /* --main-color: #8B5CF6; */
+  --skills-main-color: #623fffa4;
+  --text-color-white-t: #292929;
+  --text-color-dark-t: #f0f0f0;
+}

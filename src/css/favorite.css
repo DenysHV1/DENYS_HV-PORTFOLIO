@@ -6,12 +6,12 @@
   font: 400 60px / 1.25 'Impact', sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--text-color-white-t);
   margin-bottom: 40px;
 }
 
 .favorite_title span {
-  color: #00b068;
+  color: var(--main-color);
 }
 
 .favorite-projects-list-js {
@@ -24,7 +24,7 @@
 
 .favorite-item {
   width: 100%;
-  background-color: black;
+  background-color: var(--text-color-white-t);
   padding: 5px;
   border-radius: 5px;
   overflow: hidden;
@@ -56,27 +56,27 @@
 }
 
 .last-project-item-btn {
-  color: aliceblue;
-  background-color: #00b068;
+  color: var(--text-color-dark-t);
+  background-color: var(--main-color);
   padding: 2px 5px;
 }
 
 .favorite-technology {
-  color: aliceblue;
+  color: var(--text-color-dark-t);
   text-decoration: underline;
   font-size: 14px;
 }
 
 .name-info-git {
-  color: aliceblue;
+  color: var(--text-color-dark-t);
   margin-bottom: 5px;
 }
 
 .show-more-js{
   display: flex;
   align-self: center;
-  color: aliceblue;
-  background-color: #00b068;
+  color: var(--text-color-dark-t);
+  background-color: var(--main-color);
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;

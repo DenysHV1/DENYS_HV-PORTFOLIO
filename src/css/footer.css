@@ -24,11 +24,11 @@
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--text-color-white-t);
 }
 
 .footer-logo span {
-  color: #00b068;
+  color: var(--main-color);
 }
 
 .footer-list {
@@ -40,7 +40,7 @@
 .footer-link {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
-  color: #292929;
+  color: var(--text-color-white-t);
   line-height: 150%;
   letter-spacing: 0.03em;
   font-size: 16px;
@@ -49,11 +49,11 @@
 }
 
 .footer-link:hover {
-  color: #00b068;
+  color: var(--main-color);
 }
 
 .footer-bottom-text {
-  color: #292929;
+  color: var(--text-color-white-t);
   font-weight: 300;
   font-size: 16px;
   text-align: center;

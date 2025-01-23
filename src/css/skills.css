@@ -4,7 +4,7 @@
   font-weight: 600;
   font-size: 34px;
   text-transform: uppercase;
-  background-color: #bcdfd1;
+  background-color: var(--skills-main-color);
   position: relative;
   z-index: 1;
   margin-left: -2px;
@@ -28,7 +28,7 @@
   animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  color: #292929;
+  color: var(--text-color-white-t);
   padding: 32px 0px;
   text-align: center;
 }
@@ -72,7 +72,7 @@
   display: inline-block;
   width: 8px;
   height: 8px;
-  background-color: #00b068;
+  background-color: var(--main-color);
   margin: 0 16px;
   vertical-align: middle;
   border-radius: 2px;
@@ -93,10 +93,10 @@
   background: #e4e5e6;
 }
 .second_marquee__line {
-  color: #00b068;
+  color: var(--main-color);
 }
 .tech-second-dot::before {
-  background-color: #292929;
+  background-color: var(--text-color-white-t);
 }
 .tech-wrapper {
   position: relative;
@@ -139,9 +139,3 @@
     text-align: center;
   }
 }
-
-/* @media screen and (min-width: 1440px) {
-	.tech-dot-hidden {
-	  display: inline-block;
-	}
-  } */

@@ -11,16 +11,7 @@
   top: 0;
   width: 100%;
   height: 968px;
-  background-image: url(../img/hero/hero-360-top-1x.png);
-  background-size: 360px 708px;
-  background-repeat: no-repeat;
-  background-position: 29% 37%;
   z-index: -1;
-}
-@media (min-resolution: 192dpi) {
-  .mobile-bg {
-    background-image: url(../img/hero/hero-360-top-2x.png);
-  }
 }
 
 .hello {
@@ -36,11 +27,11 @@
   font: 400 60px / 1.25 'Impact', sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--text-color-white-t);
 }
 
 .hero-title-accent {
-  color: #00b068;
+  color: var(--main-color);
 }
 
 .hero-img-men {
@@ -62,6 +53,13 @@
     max-height: 50px;
     overflow: hidden;
   }
+
+  .mobile-bg{
+      background-image: url(../img/hero/hero-lightning.png);
+  background-size: 360px 708px;
+  background-repeat: no-repeat;
+  background-position: 109% -10%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -73,29 +71,17 @@
   }
 
   .hero-bg-top {
-    background-image: url(../img/hero/hero-768-top-1x.png);
+    background-image: url(../img/hero/hero-lightning.png);
+    background-size: 411px 498px;
     background-repeat: no-repeat;
-    background-size: 356px 276px;
-    background-position: 89% 1%;
+    background-position: 109% 256%;
   }
 
   .hero-inner {
     display: flex;
     flex-direction: column;
-    background-image: url(../img/hero/hero-768-bottom-1x.png);
-    background-size: 356px 276px;
-    background-position: 105% 82.5%;
-    background-repeat: no-repeat;
   }
 
-  @media (min-resolution: 192dpi) {
-    .hero-bg-top {
-      background-image: url(../img/hero/hero-768-top-2x.png);
-    }
-    .hero-inner {
-      background-image: url(../img/hero/hero-768-bottom-2x.png);
-    }
-  }
 
   .hero-title {
     font: 400 130px / 1.15 'Impact', sans-serif;
@@ -117,8 +103,7 @@
   }
 
   .hero-bg-top {
-    background-size: 356px 276px;
-    background-position: 95% 3%;
+    background-position: 90% -86%;
   }
 
   .hero-inner {
