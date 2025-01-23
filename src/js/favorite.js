@@ -19,11 +19,10 @@ export const favoriteProjects = projectArr => {
             technology1,
             technology2,
             technology3,
-            favorite,
           },
           idx
         ) => {
-          if (status && favorite && idx < items) {
+          if (status && idx < items) {
             return `
     <li class="favorite-item" id="${id}">
     <h3 class="name-info-git">${name}</h3>
