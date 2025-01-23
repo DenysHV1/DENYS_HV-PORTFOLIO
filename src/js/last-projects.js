@@ -58,7 +58,7 @@ export function lastProjects(projectArr, lastProjectsEl) {
 }
 
 export function lastProjectsSlider() {
-  return new Swiper('.swiper', {
+  return new Swiper('.swiper ', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
