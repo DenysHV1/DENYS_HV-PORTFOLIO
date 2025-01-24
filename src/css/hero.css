@@ -41,6 +41,7 @@
 
 .hero-title-accent {
   color: var(--main-color);
+  white-space: nowrap;
 }
 
 @media screen and (min-width: 360px) {
