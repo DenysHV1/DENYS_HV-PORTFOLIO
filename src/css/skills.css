@@ -101,9 +101,6 @@
 .tech-wrapper {
   position: relative;
 }
-.tech-skills {
-  padding-top: 40px;
-}
 
 @media screen and (min-width: 480px) {
   .marquee__line {
@@ -116,7 +113,6 @@
     animation-duration: 5s;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .marquee__line {

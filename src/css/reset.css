@@ -93,11 +93,10 @@ img {
 
 /* /base/ */
 body {
-  background-color: #ffffff;
-  /* background-image: url(../img/hero/lightning.png);
+  background-color: #f2f2f2;
   background-repeat: no-repeat;
   background-position: 50% 100%;
-  background-size: 120% 120%; */
+  background-size: 120% 120%;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 16px;
