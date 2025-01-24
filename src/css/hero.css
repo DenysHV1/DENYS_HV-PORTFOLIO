@@ -1,14 +1,19 @@
 .hero {
   display: flex;
-  flex-wrap: wrap;
-  max-width: 1280px;
-  margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 40px;
   background-image: url(../img/hero/design-picture-1x.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 109% -10%;
+
+}
+
+.hero-inner {
+display: flex;
+width: 320px;
+justify-content: flex-start;
+align-items: flex-start;
 }
 
 .hero_img {
@@ -51,6 +56,10 @@
     background-repeat: no-repeat;
     background-position: 109% -23%;
   }
+
+  .hero-inner {
+    width: 360px;
+    }
 }
 
 @media screen and (min-width: 480px) {
@@ -62,6 +71,10 @@
   .mobile-bg {
     background-position: 15% -17%;
   }
+
+  .hero-inner {
+    width: 480px;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -78,6 +91,10 @@
   .mobile-bg {
     background-position: 55% -17%;
   }
+
+  .hero-inner {
+    width: 600px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -85,8 +102,8 @@
     background-image: url(../img/hero/design-picture-1x.png),
       url(../img/hero/hero-lightning-2.png);
     padding-top: 88px;
-    background-size: 344px 531px, 403px 605px;
-    background-position: 102% 204%, 47% -33%;
+    background-size: 355px 550px, 403px 605px;
+    background-position: 102% 63%, 47% -33%;
     background-repeat: no-repeat, no-repeat;
   }
   .mobile-bg {
@@ -94,9 +111,8 @@
   }
 
   .hero-inner {
-    display: flex;
-    flex-direction: column;
-  }
+    width: 768px;
+    }
 
   .hero-title {
     font: 400 100px / 1.15 'Impact', sans-serif;
@@ -106,8 +122,10 @@
 
 @media screen and (min-width: 900px) {
   .hero {
-    background-position: 102% 204%, 66% -33%;
+    background-position: 102% 63%, 66% -33%;
   }
+
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -118,13 +136,17 @@
 
   .hero {
     background-size: 535px 752px, 592px 820px;
-    background-position: 111% -90%, 63% -11%;
+    background-position: 111% 149%, 63% -11%;
   }
+
+  .hero-inner {
+    width: 1000px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-position: 104% -90%, 52% -11%;
+    background-position: 104% 27%, 52% -11%;
   }
 }
 
@@ -135,11 +157,10 @@
   }
   .hero {
     background-size: 535px 752px, 522px 840px;
-    background-position: 102% -90%, 49% -11%;
+    background-position: 101% 27%, 49% -11%;
   }
 
   .hero-inner {
-    padding: 0;
-    margin-left: 20px;
-  }
+    width: 1280px;
+    }
 }
