@@ -111,8 +111,9 @@
     background-repeat: no-repeat;
   }
   .mobile-bg {
+    background-image: url(../img/hero/lightning3.png);
     background-size: 500px 914px;
-    background-position: 95% -228%;
+    background-position: 113% -228%;
   }
 
   .hero-inner {
@@ -138,7 +139,7 @@
 
   .mobile-bg {
     background-size: 565px 927px;
-    background-position: 91% -230%;
+    background-position: 108% -230%;
   }
 
   .hero-inner {
@@ -160,8 +161,9 @@
   }
 
   .mobile-bg {
+    background-image: url(../img/hero/lightning2.png);
     background-size: 639px 1200px;
-    background-position: 23% 8%;
+    background-position: 25% 33%;
   }
 
   .hero-inner {
