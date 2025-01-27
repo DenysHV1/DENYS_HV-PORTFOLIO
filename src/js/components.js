@@ -1,9 +1,9 @@
 import { projectArr } from './project-arr.js';
-
+import { scrollUp } from './scroll-up.js';
 //Header
 import { header } from './header.js';
 header();
-
+scrollUp()
 //pages
 import { refs } from './refs.js';
 const { componentsEl, componentsKey, componentsPagination } = refs;

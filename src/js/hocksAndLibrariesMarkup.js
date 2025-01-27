@@ -1,7 +1,8 @@
 //Header
+import { scrollUp } from './scroll-up.js';
 import { header } from './header.js';
 header();
-
+scrollUp()
 //
 import { hocks } from './hocksArr';
 const hocksListEl = document.querySelector('.hocks-list-js');

@@ -1,9 +1,10 @@
 
 import { projectArr } from './js/project-arr';
-
+import { scrollUp } from './js/scroll-up.js';
 //Header
 import { header } from './js/header';
 header();
+
 
 //Last Projects
 import { lastProjects } from './js/last-projects.js';
@@ -24,3 +25,5 @@ document.querySelectorAll('a[target="_blank"]').forEach(link => {
         }, 100);
     });
 });
+
+scrollUp()

@@ -1,5 +1,8 @@
 import { projectArr } from './project-arr.js';
 
+import { scrollUp } from './scroll-up.js';
+scrollUp()
+
 //Header
 import { header } from './header.js';
 header();
