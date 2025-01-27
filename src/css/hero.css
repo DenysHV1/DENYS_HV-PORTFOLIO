@@ -40,11 +40,21 @@
   justify-content: flex-start;
   align-items: flex-start;
   max-width: 100%;
+
+  text-shadow:
+  0 0 5px rgba(255, 255, 255, 0.8),
+  0 0 10px rgba(255, 255, 255, 0.6),
+  0 0 15px rgba(255, 255, 255, 0.4);
+
 }
 
 .hero-title-accent {
   color: var(--main-color);
   white-space: nowrap;
+  text-shadow:
+  0 0 5px rgba(255, 255, 255, 0.8),
+  0 0 10px rgba(255, 255, 255, 0.6),
+  0 0 15px rgba(255, 255, 255, 0.4);
 }
 
 @media screen and (min-width: 360px) {
