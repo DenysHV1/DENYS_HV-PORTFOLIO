@@ -42,6 +42,9 @@ import reactHW8 from '../img/react/YourOwnContactBook.jpg';
 import reactFilms from '../img/react/react-films.jpg';
 import weather from '../img/react/weather.jpg';
 
+import tgBot from '../img/telegram-bot.png';
+import backendContacts from '../img/backend-app.jpg'
+
 const preview =
   'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg';
 
@@ -773,5 +776,53 @@ export const projectArr = [
     technology3: '',
     id: 41,
     libraries: [],
+  },
+  {
+    name: 'Telegram Bot',
+    category: 'web-apps',
+    status: true,
+    favorite: true,
+    imgPreview: tgBot,
+    codeLink: 'https://github.com/DenysHV1/404',
+    siteLink: 'https://t.me/DenVikBot',
+    technology1: 'Node',
+    technology2: '',
+    technology3: '',
+    id: 42,
+    libraries: [
+      { name: 'nodemon', link: 'https://www.npmjs.com/package/nodemon' },
+      { name: 'node-telegram-bot-api', link: 'https://www.npmjs.com/package/node-telegram-bot-api' },
+    ],
+  },
+  {
+    name: 'contacts-app(Backend)',
+    category: 'web-apps',
+    status: true,
+    favorite: true,
+    imgPreview: backendContacts,
+    codeLink: 'https://github.com/DenysHV1/nodejs-hw-mongodb',
+    siteLink: '*',
+    technology1: 'Node',
+    technology2: '',
+    technology3: '',
+    id: 43,
+    libraries: [
+      { name: 'nodemon', link: 'https://www.npmjs.com/package/nodemon' },
+      { name: 'express', link: 'https://www.npmjs.com/package/express' },
+      { name: 'cors', link: 'https://www.npmjs.com/package/cors' },
+      { name: 'pino-http', link: 'https://github.com/pinojs/pino-http' },
+      { name: 'dotenv', link: 'https://www.npmjs.com/package/dotenv' },
+      { name: 'mongoose', link: 'https://www.npmjs.com/package/mongoose' },
+      { name: 'bcrypt', link: 'https://www.npmjs.com/package/bcrypt' },
+      { name: 'http-errors', link: 'https://www.npmjs.com/package/http-errors' },
+      { name: 'cookie-parser', link: 'https://www.npmjs.com/package/cookie-parser' },
+      { name: 'joi', link: 'https://www.npmjs.com/package/joi' },
+      { name: 'jsonwebtoken', link: 'https://www.npmjs.com/package/jsonwebtoken' },
+      { name: 'swagger-ui-express', link: 'https://www.npmjs.com/package/swagger-ui-express' },
+      { name: 'nodemailer', link: 'https://www.npmjs.com/package/nodemailer' },
+      { name: 'multer', link: 'https://www.npmjs.com/package/multer' },
+      { name: 'google-auth-library', link: 'https://www.npmjs.com/package/google-auth-library' },
+      { name: 'cloudinary', link: 'https://www.npmjs.com/package/cloudinary' },
+    ],
   },
 ];

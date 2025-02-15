@@ -36,41 +36,48 @@ export const hocks = [
     from: 'from "react"',
   },
   {
+    name: 'useReducer',
+    link: 'https://react.dev/reference/react/useReducer',
+    id: 7,
+    from: 'from "react"',
+  },
+  {
     name: 'useNavigate',
     link: 'https://reactrouter.com/en/main/hooks/use-navigate',
-    id: 7,
+    id: 8,
     from: 'from "react-router-dom"',
   },
   {
     name: 'useParams',
     link: 'https://reactrouter.com/en/main/hooks/use-params#useparams',
-    id: 8,
+    id: 9,
     from: 'from "react-router-dom"',
   },
   {
     name: 'useSearchParams',
     link: 'https://reactrouter.com/en/main/hooks/use-search-params#usesearchparams',
-    id: 9,
+    id: 10,
     from: 'from "react-router-dom"',
   },
   {
     name: 'useLocation',
     link: 'https://reactrouter.com/en/main/hooks/use-location#uselocation',
-    id: 10,
+    id: 11,
     from: 'from "react-router-dom"',
   },
   {
     name: 'useSelector',
     link: 'https://react-redux.js.org/api/hooks#useselector',
-    id: 11,
+    id: 12,
     from: 'from "react-redux"',
   },
   {
     name: 'useDispatch',
     link: 'https://react-redux.js.org/api/hooks#usedispatch',
-    id: 12,
+    id: 13,
     from: 'from "react-redux"',
   },
+
 ];
 
 export const librariesArr = [
@@ -79,7 +86,7 @@ export const librariesArr = [
     name: 'swiper',
     link: 'https://swiperjs.com/get-started',
     id: 1,
-    set: 'npm i swiper',
+    set: 'Слайдер',
     purpose: 'production'
   },
   {
@@ -87,7 +94,7 @@ export const librariesArr = [
     name: 'flatpickr',
     link: 'https://www.npmjs.com/package/flatpickr',
     id: 2,
-    set: 'npm i flatpickr',
+    set: 'Календар',
     purpose: 'production'
   },
   {
@@ -95,7 +102,7 @@ export const librariesArr = [
     name: 'izitoast',
     link: 'https://www.npmjs.com/package/izitoast',
     id: 3,
-    set: 'npm i izitoast',
+    set: 'Спливаючі повідомлення',
     purpose: 'production'
   },
   {
@@ -103,7 +110,7 @@ export const librariesArr = [
     name: 'simplelightbox',
     link: 'https://www.npmjs.com/package/simplelightbox',
     id: 4,
-    set: 'npm i simplelightbox',
+    set: 'Галерея із слайдером',
     purpose: 'production'
   },
   {
@@ -111,7 +118,7 @@ export const librariesArr = [
     name: 'axios',
     link: 'https://axios-http.com/',
     id: 5,
-    set: 'npm i axios',
+    set: 'Робота з API',
     purpose: 'production'
   },
   {
@@ -119,7 +126,7 @@ export const librariesArr = [
     name: 'basicLightBox',
     link: 'https://www.jsdelivr.com/package/npm/basiclightbox',
     id: 6,
-    set: 'npm i basiclightbox',
+    set: 'Галерея без слайдера',
     purpose: 'production'
   },
   {
@@ -127,7 +134,7 @@ export const librariesArr = [
     name: 'formik',
     link: 'https://formik.org/',
     id: 7,
-    set: 'npm i formik',
+    set: 'Робота з формами',
     purpose: 'production'
   },
   {
@@ -135,7 +142,7 @@ export const librariesArr = [
     name: 'yup',
     link: 'https://github.com/jquense/yup',
     id: 8,
-    set: 'npm i yup',
+    set: 'Валідатор для форми',
     purpose: 'production'
   },
   {
@@ -143,7 +150,7 @@ export const librariesArr = [
     name: 'nanoid',
     link: 'https://www.npmjs.com/package/nanoid',
     id: 9,
-    set: 'npm i nanoid',
+    set: 'Створення id',
     purpose: 'production'
   },
   {
@@ -151,7 +158,7 @@ export const librariesArr = [
     name: 'react-spinner',
     link: 'https://github.com/mhnpd/react-loader-spinner',
     id: 10,
-    set: 'npm i react-spinners',
+    set: 'Анімаційне завантаження',
     purpose: 'production'
   },
   {
@@ -159,7 +166,7 @@ export const librariesArr = [
     name: 'react-modal',
     link: 'https://github.com/reactjs/react-modal?tab=readme-ov-file#examples',
     id: 11,
-    set: 'npm i --save react-modal',
+    set: 'Модальне вікно',
     purpose: 'production'
   },
   {
@@ -167,7 +174,7 @@ export const librariesArr = [
     name: 'React Hot Toast',
     link: 'https://react-hot-toast.com/',
     id: 12,
-    set: 'npm i react-hot-toast',
+    set: 'Спливаючі повідомлення',
     purpose: 'production'
   },
   {
@@ -175,7 +182,7 @@ export const librariesArr = [
     name: 'React router',
     link: 'https://reactrouter.com/en/main',
     id: 13,
-    set: 'npm i react-router',
+    set: 'Створення та навігація по сторінкам',
     purpose: 'production'
   },
   {
@@ -183,7 +190,7 @@ export const librariesArr = [
     name: 'React Icons',
     link: 'https://react-icons.github.io/react-icons/',
     id: 14,
-    set: 'npm i react-icons',
+    set: 'SVG іконки',
     purpose: 'production'
   },
   {
@@ -191,7 +198,7 @@ export const librariesArr = [
     name: 'Redux toolkit',
     link: 'https://redux-toolkit.js.org/introduction/getting-started',
     id: 15,
-    set: 'npm i @reduxjs/toolkit',
+    set: 'Стейт менеджер',
     purpose: 'production'
   },
   {
@@ -199,7 +206,7 @@ export const librariesArr = [
     name: 'React redux',
     link: 'https://www.npmjs.com/package/react-redux',
     id: 16,
-    set: 'npm i react-redux',
+    set: 'Зв`язок react і redux',
     purpose: 'production'
   },
   {
@@ -207,7 +214,7 @@ export const librariesArr = [
     name: 'Redux Persist',
     link: 'https://www.npmjs.com/package/redux-persist',
     id: 17,
-    set: 'npm i redux-persist',
+    set: 'Робота з localStorage',
     purpose: 'production'
   },
   {
@@ -215,7 +222,7 @@ export const librariesArr = [
     name: 'React loader spinner',
     link: 'https://mhnpd.github.io/react-loader-spinner/docs/intro/',
     id: 18,
-    set: 'npm i react-loader-spinner',
+    set: 'Анімаційне завантаження',
     purpose: 'production'
   },
   {
@@ -223,7 +230,7 @@ export const librariesArr = [
     name: 'nodemon',
     link: 'https://www.npmjs.com/package/nodemon',
     id: 19,
-    set: 'npm i nodemon',
+    set: 'Локальний сервер',
     purpose: 'development'
   },
   {
@@ -239,7 +246,7 @@ export const librariesArr = [
     name: 'Modern normalize',
     link: 'https://github.com/sindresorhus/modern-normalize#readme',
     id: 21,
-    set: 'npm i modern-normalize',
+    set: 'Скидання базових стилів браузера',
     purpose: 'production'
   },
   {
@@ -247,7 +254,7 @@ export const librariesArr = [
     name: 'express',
     link: 'https://www.npmjs.com/package/express',
     id: 22,
-    set: 'npm i express',
+    set: 'Фреймворк для роботи з Node.js',
     purpose: 'production'
   },
   {
@@ -255,7 +262,7 @@ export const librariesArr = [
     name: '@faker-js/faker',
     link: 'https://www.npmjs.com/package/@faker-js/faker',
     id: 23,
-    set: 'npm i @faker-js/faker',
+    set: 'Генерація фейкових JSON',
     purpose: 'development'
   },
   {
@@ -263,7 +270,7 @@ export const librariesArr = [
     name: 'eslint',
     link: 'https://www.npmjs.com/package/eslint',
     id: 24,
-    set: 'npm i eslint',
+    set: 'Часткова валідація коду',
     purpose: 'development'
   },
   {
@@ -271,7 +278,7 @@ export const librariesArr = [
     name: 'cors',
     link: 'https://www.npmjs.com/package/cors',
     id: 25,
-    set: 'npm i cors',
+    set: 'Middleware скидає заборону \n запитів на інший домен',
     purpose: 'development'
   },
   {
@@ -279,23 +286,23 @@ export const librariesArr = [
     name: 'react-helmet-async',
     link: 'https://www.npmjs.com/package/react-helmet-async',
     id: 26,
-    set: 'npm i react-helmet-async',
+    set: 'Змінює title сторінки',
     purpose: 'production'
   },
   {
     forSkill: 'node',
-    name: 'Pino http',
+    name: 'pino-http, -D pino-pretty',
     link: 'https://github.com/pinojs/pino-http',
     id: 27,
-    set: 'npm i pino-http &\n npm i -D pino-pretty',
+    set: 'Зручне відображення запитів',
     purpose: 'development'
   },
   {
     forSkill: 'node',
-    name: 'dotenv (for reading .env)',
+    name: 'dotenv',
     link: 'https://www.npmjs.com/package/dotenv',
     id: 28,
-    set: 'npm i dotenv',
+    set: 'Робота з .env',
     purpose: 'production'
   },
   {
@@ -303,7 +310,7 @@ export const librariesArr = [
     name: 'mongoose',
     link: 'https://www.npmjs.com/package/mongoose',
     id: 29,
-    set: 'npm i mongoose',
+    set: 'Робота з MongoDB',
     purpose: 'production'
   },
   {
@@ -311,7 +318,7 @@ export const librariesArr = [
     name: 'chart.js',
     link: 'https://www.npmjs.com/package/chart.js',
     id: 30,
-    set: 'npm i chart.js',
+    set: 'Графік',
     purpose: 'production'
   },
   {
@@ -319,7 +326,7 @@ export const librariesArr = [
     name: 'react-chartjs-2',
     link: 'https://www.npmjs.com/package/react-chartjs-2',
     id: 31,
-    set: 'npm i react-chartjs-2',
+    set: 'Додаток до графіка',
     purpose: 'production'
   },
   {
@@ -327,7 +334,95 @@ export const librariesArr = [
     name: 'chartjs-plugin-datalabels',
     link: 'https://www.npmjs.com/package/chartjs-plugin-datalabels',
     id: 32,
-    set: 'npm i chartjs-plugin-datalabels',
+    set: 'Додаток до графіка',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'node-telegram-bot-api',
+    link: 'https://www.npmjs.com/package/node-telegram-bot-api',
+    id: 33,
+    set: 'Створення бота для TG',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'bcrypt',
+    link: 'https://www.npmjs.com/package/bcrypt',
+    id: 34,
+    set: 'хешування паролів',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'http-errors',
+    link: 'https://www.npmjs.com/package/http-errors',
+    id: 35,
+    set: 'Робота з помилками(404, 500 і тд.)',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'cookie-parser',
+    link: 'https://www.npmjs.com/package/cookie-parser',
+    id: 36,
+    set: 'Middleware для роботи з cookie',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'joi',
+    link: 'https://www.npmjs.com/package/joi',
+    id: 37,
+    set: 'Валідатор',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'jsonwebtoken',
+    link: 'https://www.npmjs.com/package/jsonwebtoken',
+    id: 38,
+    set: 'npm i jsonwebtoken',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'swagger-ui-express',
+    link: 'https://www.npmjs.com/package/swagger-ui-express',
+    id: 39,
+    set: 'UI відображення backend',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'nodemailer',
+    link: 'https://www.npmjs.com/package/nodemailer',
+    id: 40,
+    set: 'Відправлення листів на email',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'multer',
+    link: 'https://www.npmjs.com/package/multer',
+    id: 41,
+    set: 'Завантаження файлів',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'google-auth-library',
+    link: 'https://www.npmjs.com/package/google-auth-library',
+    id: 42,
+    set: 'npm i google-auth-library',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'node',
+    name: 'cloudinary',
+    link: 'https://www.npmjs.com/package/cloudinary',
+    id: 43,
+    set: 'Робота з cloudinary сервісом',
     purpose: 'production'
   },
 ];
