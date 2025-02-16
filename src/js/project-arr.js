@@ -801,7 +801,7 @@ export const projectArr = [
     favorite: true,
     imgPreview: backendContacts,
     codeLink: 'https://github.com/DenysHV1/nodejs-hw-mongodb',
-    siteLink: '*',
+    siteLink: 'https://nodejs-hw-mongodb-05ma.onrender.com/',
     technology1: 'Node',
     technology2: '',
     technology3: '',
