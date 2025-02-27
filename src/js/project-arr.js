@@ -27,6 +27,7 @@ import mechanicalWatch from '../img/js/time-info.jpg';
 import teamPortfolio from '../img/js/team-portfolio-js.jpg';
 import oldPortfolio from '../img/js/old-portfolio.jpg';
 import evoPlay from '../img/js/evoplay-img.jpg';
+import joyBlast from '../img/joyBlast.jpg';
 
 import colorPaletteReact from '../img/react/color-palette-react.jpg';
 import reactTodoList from '../img/react/todoList-react.jpg';
@@ -765,7 +766,7 @@ export const projectArr = [
     ],
   },
   {
-    name: 'Merge cruise',
+    name: 'Merge cruise (Charity project)',
     category: 'websites',
     status: true,
     favorite: true,
@@ -863,5 +864,19 @@ export const projectArr = [
       },
       { name: 'swiper', link: 'https://swiperjs.com/react' },
     ],
+  },
+  {
+    name: 'Joy Blast (Charity project)',
+    category: 'websites',
+    status: true,
+    favorite: true,
+    imgPreview: joyBlast,
+    codeLink: 'https://github.com/DenysHV1/JoyBlast',
+    siteLink: 'https://denyshv1.github.io/JoyBlast/',
+    technology1: 'html+css',
+    technology2: 'JavaScript',
+    technology3: '',
+    id: 45,
+    libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
   },
 ];
