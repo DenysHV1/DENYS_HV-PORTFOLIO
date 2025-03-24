@@ -425,4 +425,36 @@ export const librariesArr = [
     set: 'Робота з cloudinary сервісом',
     purpose: 'production'
   },
+  {
+    forSkill: 'react',
+    name: 'clsx',
+    link: 'https://www.npmjs.com/package/clsx',
+    id: 44,
+    set: 'Робота з класами',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'react',
+    name: 'react-hook-form',
+    link: 'https://www.npmjs.com/package/react-hook-form',
+    id: 45,
+    set: 'Робота з формами',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'react',
+    name: 'recharts',
+    link: 'https://www.npmjs.com/package/recharts',
+    id: 46,
+    set: 'Робота з графіками',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'react',
+    name: 'uuid',
+    link: 'https://www.npmjs.com/package/uuid',
+    id: 47,
+    set: 'Робота з id',
+    purpose: 'production'
+  },
 ];
