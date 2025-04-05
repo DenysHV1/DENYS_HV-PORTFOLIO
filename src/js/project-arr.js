@@ -45,6 +45,7 @@ import weather from '../img/react/weather.jpg';
 import tikTakToeReact from '../img/react/tik-tak-toe-react.jpg';
 import quiz from '../img/react/quiz.jpg';
 import aqua from '../img/react/aqua.jpg';
+import rental_car from '../img/react/rental-car.jpg'
 
 import tgBot from '../img/telegram-bot.png';
 import backendContacts from '../img/backend-app.jpg';
@@ -950,6 +951,24 @@ export const projectArr = [
         link: 'https://www.npmjs.com/package/cookie-parser',
       },
       { name: 'joi', link: 'https://www.npmjs.com/package/joi' },
+    ],
+  },
+  {
+    name: 'Rental Car',
+    category: 'web-apps',
+    status: true,
+    favorite: false,
+    imgPreview: rental_car,
+    codeLink: 'https://github.com/DenysHV1/rental-car',
+    siteLink: 'https://rental-car-six-omega.vercel.app/',
+    technology1: 'React',
+    technology2: 'Redux',
+    technology3: 'css',
+    id: 49,
+    libraries: [
+      { name: 'axios', link: 'https://axios-http.com/' },
+      {name: "formik", link: "https://formik.org/"},
+      {name: "redux-persist", link: "https://www.npmjs.com/package/redux-persist"},
     ],
   },
 ];
