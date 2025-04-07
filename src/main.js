@@ -1,5 +1,5 @@
-
-import { projectArr } from './js/project-arr';
+import outsourcing from './js/outsourcing.js';
+import { projectArr } from './data/project-arr.js';
 import { scrollUp } from './js/scroll-up.js';
 //Header
 import { header } from './js/header';
@@ -13,6 +13,8 @@ import { favoriteProjects } from './js/favorite.js';
 const lastProjectsEl = document.querySelector('.swiper-wrapper');
 lastProjects(projectArr, lastProjectsEl);
 lastProjectsSlider();
+
+outsourcing(projectArr)
 
 favoriteProjects(projectArr)
 

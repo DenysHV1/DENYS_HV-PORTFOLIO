@@ -1,17 +1,17 @@
-import { projectArr } from './project-arr.js';
-import { scrollUp } from './scroll-up.js';
+import { projectArr } from '../../data/project-arr.js';
+import { scrollUp } from '../scroll-up.js';
 
 //Header
-import { header } from './header.js';
+import { header } from '../header.js';
 header();
 scrollUp()
 //pages
-import { refs } from './refs.js';
+import { refs } from '../refs.js';
 const { apiVisualsEl, apiVisualKey, apiVisualsPagination } = refs;
-import { librariesMarkup } from './render-libraries-markup.js';
-import { renderListMarkup } from './render-list-markup.js';
-import { pagination } from './pagination.js';
-import { openLibraries } from './openLibraries.js';
+import { librariesMarkup } from '../render-libraries-markup.js';
+import { renderListMarkup } from '../render-list-markup.js';
+import { pagination } from '../pagination.js';
+import { openLibraries } from '../openLibraries.js';
 
 // render markup
 apiVisualsEl.insertAdjacentHTML(

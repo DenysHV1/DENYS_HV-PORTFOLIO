@@ -202,7 +202,7 @@ input.checkbox:checked ~ * div.box {
   justify-content: center;
   border-radius: 5px;
   background-color: var(--main-color);
-  transition:  transform,  box-shadow 350ms, 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform, box-shadow 350ms, 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover {
@@ -237,7 +237,7 @@ input.checkbox:checked ~ * div.box {
   fill: var(--text-color-white-t);
 }
 
-.menu-link-hooks{
+.menu-link-hooks {
   display: none;
 }
 
@@ -255,7 +255,7 @@ input.checkbox:checked ~ * div.box {
     display: flex;
   }
 
-  .menu-link-hooks{
+  .menu-link-hooks {
     display: flex;
     align-self: flex-start;
     font-style: italic;
@@ -265,13 +265,12 @@ input.checkbox:checked ~ * div.box {
   .menu-body {
     width: 100%;
   }
-.header{
-  .header-inner{
-    padding-bottom: 5px;
-    border-bottom: 1px solid #aeb1b1;
+  .header {
+    .header-inner {
+      padding-bottom: 5px;
+      border-bottom: 1px solid #aeb1b1;
+    }
   }
-}
-
 
   .menu-list {
     display: flex;
@@ -323,7 +322,7 @@ body.dark-theme {
   }
   /* tech skills */
   .marquee {
-  background-color: var(--skills-main-color);
+    background-color: var(--skills-main-color);
   }
   .marquee__line {
     color: var(--text-color-dark-t);
@@ -346,29 +345,25 @@ body.dark-theme {
     fill: var(--text-color-dark-t);
   }
 
-  .technology-item{
+  .technology-item {
     color: var(--text-color-dark-t);
   }
 
-  .pagination-btn{
+  .pagination-btn {
     color: var(--text-color-dark-t);
   }
 
   .hero-title-accent {
-    text-shadow:
-    0 0 5px rgba(255, 255, 255, 0.8),
-    0 0 10px rgba(255, 255, 255, 0.6),
-    0 0 15px rgba(255, 255, 255, 0.4);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+      0 0 10px rgba(255, 255, 255, 0.6), 0 0 15px rgba(255, 255, 255, 0.4);
   }
-
 }
 /*todo------------------- theme */
 
-.menu-link.active{
+.menu-link.active {
   border-bottom: 2px solid var(--main-color);
 }
 
-.pagination-btn.active{
+.pagination-btn.active {
   border-bottom: 2px solid var(--main-color);
 }
-

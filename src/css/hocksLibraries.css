@@ -80,8 +80,8 @@
 }
 .react-name-router {
   background-color: #3737fb;
-  box-shadow: 0 0 10px #ffd700, /* Внешний золотой свет */ 0 0 20px #ffd700,
-    0 0 30px #ffbf00, 0 0 40px #ffbf00; /* Усиление эффекта свечения */
+  box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700,
+    0 0 30px #ffbf00, 0 0 40px #ffbf00;
 }
 
 .js-name {
@@ -94,8 +94,8 @@
 
 .redux-name-toolkit {
   background-color: #a168fc;
-  box-shadow: 0 0 10px #ffd700, /* Внешний золотой свет */ 0 0 20px #ffd700,
-    0 0 30px #ffbf00, 0 0 40px #ffbf00; /* Усиление эффекта свечения */
+  box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700,
+    0 0 30px #ffbf00, 0 0 40px #ffbf00;
 }
 
 .node-name {
@@ -104,8 +104,8 @@
 
 .node-name-express {
   background-color: #3e7a38;
-  box-shadow: 0 0 10px #ffd700, /* Внешний золотой свет */ 0 0 20px #ffd700,
-    0 0 30px #ffbf00, 0 0 40px #ffbf00; /* Усиление эффекта свечения */
+  box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700,
+    0 0 30px #ffbf00, 0 0 40px #ffbf00;
 }
 
 .purpose {
@@ -188,7 +188,7 @@
 }
 
 .filter-libreries:hover {
-  animation: shake 0.3s ease-in-out; /* Анимация при наведении */
+  animation: shake 0.3s ease-in-out;
 }
 
 @keyframes shake {

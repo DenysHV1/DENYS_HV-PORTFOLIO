@@ -122,7 +122,6 @@ html {
     max-width: 480px;
     padding: 0 20px;
   }
-
 }
 
 @media screen and (min-width: 600px) {
@@ -164,7 +163,7 @@ html {
   overflow: hidden;
 }
 
-.error-questionnaire{
+.error-questionnaire {
   color: red;
   opacity: 0.8;
 }
@@ -174,21 +173,24 @@ html {
   opacity: 0.5;
 } */
 
-.resume{
+.resume {
   animation: move-and-color 3s infinite alternate;
 }
 
 @keyframes move-and-color {
   0% {
     background-color: rgb(31, 193, 27);
-    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px,
+      rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px;
   }
   50% {
     background-color: rgb(85, 91, 255);
-    box-shadow: rgb(31, 193, 27) 0px 0px 0px 6px, rgb(85, 91, 255) 0px 0px 0px 3px, rgb(255, 217, 19) 0px 0px 0px 9px;
+    box-shadow: rgb(31, 193, 27) 0px 0px 0px 6px,
+      rgb(85, 91, 255) 0px 0px 0px 3px, rgb(255, 217, 19) 0px 0px 0px 9px;
   }
   100% {
     background-color: gold;
-    box-shadow: gold 0px 0px 0px 9px, rgb(31, 193, 27) 0px 0px 0px 6px,   rgb(85, 91, 255) 0px 0px 0px 3px;
+    box-shadow: gold 0px 0px 0px 9px, rgb(31, 193, 27) 0px 0px 0px 6px,
+      rgb(85, 91, 255) 0px 0px 0px 3px;
   }
 }

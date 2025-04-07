@@ -1,10 +1,10 @@
 //Header
-import { scrollUp } from './scroll-up.js';
-import { header } from './header.js';
+import { scrollUp } from '../scroll-up.js';
+import { header } from '../header.js';
 header();
 scrollUp()
 //
-import { hocks } from './hocksArr';
+import { hocks } from '../../data/hocksArr.js';
 const hocksListEl = document.querySelector('.hocks-list-js');
 
 const setHooksMarkup = () => {
@@ -22,7 +22,7 @@ const setHooksMarkup = () => {
 hocksListEl.insertAdjacentHTML('beforeend', setHooksMarkup());
 
 //
-import { librariesArr } from './hocksArr';
+import { librariesArr } from '../../data/hocksArr.js';
 const librariesListEl = document.querySelector('.libraries-list-js');
 
 const styleName = (forSkill, name) => {
