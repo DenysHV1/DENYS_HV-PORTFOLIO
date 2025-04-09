@@ -94,6 +94,30 @@
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.show-more-js1 {
+  display: flex;
+  align-self: center;
+  color: var(--text-color-dark-t);
+  background-color: var(--main-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  margin: 20px auto;
+  transition: transform 350ms cubic-bezier(0.215, 0.61, 0.355, 1),
+    box-shadow 350ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.show-more-js1:hover,
+.show-more-js1:active {
+  transform: translateY(-3px) scale(1.07);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
 @media screen and (min-width: 480px) {
   .project-item-info {
     flex-direction: row;

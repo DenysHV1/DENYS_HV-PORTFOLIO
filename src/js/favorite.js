@@ -1,6 +1,6 @@
 export const favoriteProjects = projectArr => {
   const favoriteListEl = document.querySelector('.favorite-projects-list-js');
-  const showMoreBtnEl = document.querySelector('.show-more-js');
+  const showMoreBtnEl = document.querySelector('.show-more-js1');
   let items = 3;
   const arrItems = projectArr?.filter(({ favorite }) => favorite)?.reverse();
   const maxItems = arrItems.length;
