@@ -189,6 +189,10 @@ input.checkbox:checked ~ * div.box {
   width: 100%;
 }
 
+.socials-padding{
+  padding-bottom: 5px;
+}
+
 .socials-pc {
   display: none;
   width: 100%;
