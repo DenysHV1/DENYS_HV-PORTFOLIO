@@ -8,6 +8,9 @@
   text-transform: uppercase;
   color: var(--text-color-white-t);
   margin-bottom: 40px;
+  @media screen and (max-width: 373px){
+font-size: 50px;
+  }
 }
 
 .outsourcing_title span {
