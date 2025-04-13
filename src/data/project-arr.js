@@ -54,6 +54,9 @@ import joyBlast from '../img/outsourcing/joyBlast.jpg';
 import hexa from '../img/outsourcing/hexa-diamonds.jpg';
 import bank_empire from '../img/outsourcing/bank-empire.jpg';
 import match_puzzle from '../img/outsourcing/match-puzzle.jpg';
+import fluffy_town from '../img/outsourcing/fluffy-town.jpg';
+import golf_champion from '../img/outsourcing/golf-champion.jpg';
+import match_valley from '../img/outsourcing/match-valley.jpg';
 
 const preview =
   'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg';
@@ -1092,6 +1095,51 @@ export const projectArr = [
     technology2: 'css',
     technology3: 'JS',
     id: 52,
+    libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
+  },
+  {
+    name: 'Fluffy Town',
+    category: 'websites',
+    status: true,
+    favorite: false,
+    outsourcing: true,
+    imgPreview: fluffy_town,
+    codeLink: 'https://github.com/DenysHV1/fluffy-town-outs',
+    siteLink: 'https://denyshv1.github.io/fluffy-town-outs/',
+    technology1: 'Html',
+    technology2: 'css',
+    technology3: 'JS',
+    id: 53,
+    libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
+  },
+  {
+    name: 'Golf Champion',
+    category: 'websites',
+    status: true,
+    favorite: false,
+    outsourcing: true,
+    imgPreview: golf_champion,
+    codeLink: 'https://github.com/DenysHV1/golf-champion-outs',
+    siteLink: 'https://denyshv1.github.io/golf-champion-outs/',
+    technology1: 'Html',
+    technology2: 'css',
+    technology3: 'JS',
+    id: 54,
+    libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
+  },
+  {
+    name: 'Match Valley',
+    category: 'websites',
+    status: true,
+    favorite: false,
+    outsourcing: true,
+    imgPreview: match_valley,
+    codeLink: 'https://github.com/DenysHV1/match-valley-outs',
+    siteLink: 'https://denyshv1.github.io/golf-champion-outs/',
+    technology1: 'Html',
+    technology2: 'css',
+    technology3: 'JS',
+    id: 55,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
   },
 ];
