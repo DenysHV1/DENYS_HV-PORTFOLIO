@@ -43,11 +43,8 @@ export function header() {
   const menuLinkAll = document.querySelectorAll('.menu-link');
   menuLinkAll.forEach(link => {
     link.addEventListener('click', () => {
-      // Убираем подчеркивание у всех ссылок перед установкой
       menuLinkAll.forEach(link => link.classList.remove('active'));
-      // Добавляем класс активной ссылке
       link.classList.add('active');
-      // Сохраняем выбранную ссылку в localStorage
       sessionStorage.setItem('activeLink', link.textContent);
     });
   });
@@ -70,15 +67,3 @@ export function header() {
     });
   });
 }
-
-// import me1 from '../img/about-me/about-me-2x.jpg';
-// import me2 from '../img/about-me/me2.jpg';
-
-// const photo = document.querySelector('#my-photo');
-
-// photo.addEventListener('click', (e) => {
-//   if (e.currentTarget.src !== me1) {
-//     e.currentTarget.src = me2;
-//   }
-//   e.currentTarget.src = me1;
-// });
