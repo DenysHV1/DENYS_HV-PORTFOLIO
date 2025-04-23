@@ -58,6 +58,8 @@ import fluffy_town from '../img/outsourcing/fluffy-town.jpg';
 import golf_champion from '../img/outsourcing/golf-champion.jpg';
 import match_valley from '../img/outsourcing/match-valley.jpg';
 import lab from '../img/outsourcing/lab.jpg';
+import jamakyyti from '../img/outsourcing/jamakyyti.jpg';
+import pusuruunu from '../img/outsourcing/pusuruunu.jpg';
 
 const preview =
   'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg';
@@ -1156,6 +1158,36 @@ export const projectArr = [
     technology2: 'css',
     technology3: 'JS',
     id: 56,
+    libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
+  },
+  {
+    name: 'Jamakyyti',
+    category: 'websites',
+    status: true,
+    favorite: false,
+    outsourcing: true,
+    imgPreview: jamakyyti,
+    codeLink: 'https://github.com/DenysHV1/jamakyyti-outs',
+    siteLink: 'https://denyshv1.github.io/jamakyyti-outs/',
+    technology1: 'Html',
+    technology2: 'css',
+    technology3: 'JS',
+    id: 57,
+    libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
+  },
+  {
+    name: 'Pusuruunu',
+    category: 'websites',
+    status: true,
+    favorite: false,
+    outsourcing: true,
+    imgPreview: pusuruunu,
+    codeLink: 'https://github.com/DenysHV1/pusuruunu-outs',
+    siteLink: 'https://denyshv1.github.io/pusuruunu-outs/',
+    technology1: 'Html',
+    technology2: 'css',
+    technology3: 'JS',
+    id: 58,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
   },
 ];
