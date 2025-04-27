@@ -1174,7 +1174,7 @@ export const projectArr = [
     technology3: 'JS',
     id: 57,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
-  },
+  }, 
   {
     name: 'Pusuruunu',
     category: 'websites',
