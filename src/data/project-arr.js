@@ -60,6 +60,8 @@ import match_valley from '../img/outsourcing/match-valley.jpg';
 import lab from '../img/outsourcing/lab.jpg';
 import jamakyyti from '../img/outsourcing/jamakyyti.jpg';
 import pusuruunu from '../img/outsourcing/pusuruunu.jpg';
+import candyMagic from '../img/outsourcing/candy-magic.jpg';
+import routeGauge from '../img/outsourcing/route-gauge.jpg';
 
 const preview =
   'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg';
@@ -1174,7 +1176,7 @@ export const projectArr = [
     technology3: 'JS',
     id: 57,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
-  }, 
+  },
   {
     name: 'Pusuruunu',
     category: 'websites',
@@ -1188,6 +1190,36 @@ export const projectArr = [
     technology2: 'css',
     technology3: 'JS',
     id: 58,
+    libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
+  },
+  {
+    name: 'Candy Magic',
+    category: 'websites',
+    status: true,
+    favorite: false,
+    outsourcing: true,
+    imgPreview: candyMagic,
+    codeLink: 'https://github.com/DenysHV1/candy-magic-outs',
+    siteLink: 'https://denyshv1.github.io/candy-magic-outs/',
+    technology1: 'Html',
+    technology2: 'css',
+    technology3: 'JS',
+    id: 59,
+    libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
+  },
+  {
+    name: 'Route Gauge',
+    category: 'websites',
+    status: true,
+    favorite: false,
+    outsourcing: true,
+    imgPreview: routeGauge,
+    codeLink: 'https://github.com/DenysHV1/route-gauge-outs',
+    siteLink: 'https://denyshv1.github.io/route-gauge-outs/',
+    technology1: 'Html',
+    technology2: 'css',
+    technology3: 'JS',
+    id: 60,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
   },
 ];
