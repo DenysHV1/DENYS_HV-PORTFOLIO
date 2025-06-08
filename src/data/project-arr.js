@@ -62,6 +62,7 @@ import jamakyyti from '../img/outsourcing/jamakyyti.jpg';
 import pusuruunu from '../img/outsourcing/pusuruunu.jpg';
 import candyMagic from '../img/outsourcing/candy-magic.jpg';
 import routeGauge from '../img/outsourcing/route-gauge.jpg';
+import features from '../img/features.webp';
 
 const preview =
   'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg';
@@ -1221,5 +1222,20 @@ export const projectArr = [
     technology3: 'JS',
     id: 60,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
+  },
+    {
+    name: 'Features',
+    category: 'components',
+    status: true,
+    favorite: true,
+    outsourcing: false,
+    imgPreview: features,
+    codeLink: 'https://github.com/DenysHV1/cool-effects',
+    siteLink: 'https://denyshv1.github.io/cool-effects/index.html',
+    technology1: 'Html',
+    technology2: 'css',
+    technology3: 'JS',
+    id: 61,
+    libraries: [],
   },
 ];
