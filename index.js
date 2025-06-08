@@ -1,4 +1,4 @@
-import{h as y,s as b}from"./assets/header-NVPK-VQA.js";import{p as $}from"./assets/project-arr-D8P4bIkS.js";import{S}from"./assets/vendor-BiMJRTlQ.js";const L=r=>{var a;const e=document.querySelector(".outsourcing-projects-list-js"),n=document.querySelector(".show-more-js");let t=3;const o=(a=r==null?void 0:r.filter(({outsourcing:s})=>s))==null?void 0:a.reverse(),d=o.length,i=(s,l)=>s.map(({name:c,id:f,status:u,imgPreview:p,codeLink:h,siteLink:m,technology1:g,technology2:v,technology3:w},j)=>{if(u&&j<l)return`
+import{h as y,s as b}from"./assets/header-NVPK-VQA.js";import{p as $}from"./assets/project-arr-BqpZPtPF.js";import{S}from"./assets/vendor-BiMJRTlQ.js";const L=r=>{var a;const e=document.querySelector(".outsourcing-projects-list-js"),n=document.querySelector(".show-more-js");let t=3;const o=(a=r==null?void 0:r.filter(({outsourcing:s})=>s))==null?void 0:a.reverse(),d=o.length,i=(s,l)=>s.map(({name:c,id:f,status:u,imgPreview:p,codeLink:h,siteLink:m,technology1:g,technology2:v,technology3:w},j)=>{if(u&&j<l)return`
     <li class="outsourcing-item" id="${f}">
     <h3 class="name-info-git">${c}</h3>
   <img
