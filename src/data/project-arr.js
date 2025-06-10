@@ -1223,7 +1223,7 @@ export const projectArr = [
     id: 60,
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
   },
-    {
+  {
     name: 'Features',
     category: 'components',
     status: true,
