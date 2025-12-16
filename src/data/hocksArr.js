@@ -77,6 +77,36 @@ export const hocks = [
     id: 13,
     from: 'from "react-redux"',
   },
+  {
+    name: 'useLayoutEffect',
+    link: 'https://react.dev/reference/react/useLayoutEffect',
+    id: 14,
+    from: 'from "react"',
+  },
+  {
+    name: 'useTransition',
+    link: 'https://react.dev/reference/react/useTransition',
+    id: 15,
+    from: 'from "react"',
+  },
+  {
+    name: 'useDeferredValue',
+    link: 'https://react.dev/reference/react/useDeferredValue',
+    id: 16,
+    from: 'from "react"',
+  },
+  {
+    name: 'useInsertionEffect',
+    link: 'https://react.dev/reference/react/useInsertionEffect',
+    id: 17,
+    from: 'from "react"',
+  },
+  {
+    name: 'useCallback',
+    link: 'https://react.dev/reference/react/useCallback',
+    id: 18,
+    from: 'from "react"',
+  },
 
 ];
 
@@ -455,6 +485,14 @@ export const librariesArr = [
     link: 'https://www.npmjs.com/package/uuid',
     id: 47,
     set: 'Робота з id',
+    purpose: 'production'
+  },
+  {
+    forSkill: 'react',
+    name: 'recharts',
+    link: 'https://www.npmjs.com/package/recharts',
+    id: 48,
+    set: 'Робота з графіками',
     purpose: 'production'
   },
 ];

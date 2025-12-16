@@ -63,6 +63,7 @@ import pusuruunu from '../img/outsourcing/pusuruunu.jpg';
 import candyMagic from '../img/outsourcing/candy-magic.jpg';
 import routeGauge from '../img/outsourcing/route-gauge.jpg';
 import features from '../img/features.webp';
+import weather2 from '../img/react/wether-app.webp';
 
 const preview =
   'https://as1.ftcdn.net/v2/jpg/02/47/11/84/1000_F_247118430_4PpiDgzXH1k0VKqMxw9E3RBdJVUEitsc.jpg';
@@ -1237,5 +1238,28 @@ export const projectArr = [
     technology3: 'JS',
     id: 61,
     libraries: [],
+  },
+  {
+    name: 'Weather',
+    category: 'web-apps',
+    status: true,
+    favorite: true,
+    outsourcing: false,
+    imgPreview: weather2,
+    codeLink: 'https://github.com/DenysHV1/weather-app',
+    siteLink: 'https://weather-app-nine-gamma-84.vercel.app/',
+    technology1: 'React + TS',
+    technology2: 'Redux',
+    technology3: 'css',
+    id: 62,
+    libraries: [
+      { name: 'swiper', link: 'https://swiperjs.com/react' },
+      { name: 'recharts', link: 'https://www.npmjs.com/package/recharts' },
+      { name: 'react icons', link: 'https://react-icons.github.io/react-icons/' },
+      { name: 'izitoast', link: 'https://www.npmjs.com/package/izitoast' },
+      { name: 'axios', link: 'https://axios-http.com/' },
+      { name: 'uuid', link: 'https://www.npmjs.com/package/uuid' },
+      { name: 'clsx', link: 'https://www.npmjs.com/package/clsx' },
+    ],
   },
 ];
