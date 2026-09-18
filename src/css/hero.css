@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   padding: 50px 0;
-  background-image: url(../img/hero/design-picture-1x.png);
+  background-image: none;
   background-size: 280px 392px;
   background-repeat: no-repeat;
   background-position: 105% 110%;
