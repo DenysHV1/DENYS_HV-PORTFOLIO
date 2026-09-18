@@ -19,13 +19,5 @@ outsourcing(projectArr)
 favoriteProjects(projectArr)
 
 
-document.querySelectorAll('a[target="_blank"]').forEach(link => {
-    link.addEventListener('click', function(event) {
-        event.preventDefault();
-        setTimeout(() => {
-            window.open(this.href, '_blank');
-        }, 100);
-    });
-});
 
 scrollUp()

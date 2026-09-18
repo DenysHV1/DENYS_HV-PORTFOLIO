@@ -23,6 +23,7 @@
 @import url('./pages.css');
 @import url('./hocksLibraries.css');
 @import url('./scroll_up.css');
+@import url('./profile.css');
 
 :root {
   --main-color: #623fff;

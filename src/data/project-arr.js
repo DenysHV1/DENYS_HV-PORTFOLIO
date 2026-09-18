@@ -393,7 +393,7 @@ export const projectArr = [
     outsourcing: false,
     imgPreview: goItJs11,
     codeLink: 'https://github.com/DenysHV1/goit-js-hw-11',
-    siteLink: 'https:// denyshv1.github.io/goit-js-hw-11/',
+    siteLink: 'https://denyshv1.github.io/goit-js-hw-11/',
     technology1: 'html+css',
     technology2: 'JavaScript',
     technology3: '',
@@ -660,7 +660,7 @@ export const projectArr = [
         link: 'https://reactrouter.com/en/main',
       },
       { name: 'axios', link: 'https://axios-http.com/' },
-      { name: 'Formic', link: 'https://formik.org/' },
+      { name: 'Formik', link: 'https://formik.org/' },
       {
         name: 'Yup',
         link: 'https://github.com/jquense/yup?tab=readme-ov-file#yup',
@@ -759,7 +759,7 @@ export const projectArr = [
         name: 'react-icons',
         link: 'https://react-icons.github.io/react-icons/',
       },
-      { name: 'Formic', link: 'https://formik.org/' },
+      { name: 'Formik', link: 'https://formik.org/' },
       {
         name: 'Yup',
         link: 'https://github.com/jquense/yup?tab=readme-ov-file#yup',
@@ -943,7 +943,7 @@ export const projectArr = [
     libraries: [{ name: 'swiper', link: 'https://swiperjs.com/react' }],
   },
   {
-    name: 'Aquacoders',
+    name: 'AquaTrack',
     category: 'web-apps',
     status: true,
     favorite: true,
