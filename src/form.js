@@ -620,22 +620,78 @@ formID.addEventListener('submit', e => {
 
 const container = document.querySelector('.boxes1');
 
-const createBoxes = () => {
-  return Array.from({ length: 680 }, (_, i) => i + 1)
-    .map(_ => `<span class="special-box"></span>`)
-    .join('');
-};
-container.insertAdjacentHTML('afterbegin', createBoxes());
+if (container) {
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const hoverTimers = new WeakMap();
+  let isInViewport = false;
+  let boxesCreated = false;
 
-const boxesAll = document.querySelectorAll('.special-box');
-[...boxesAll].forEach(el => {
-  el.addEventListener('mouseover', () => {
-    el.classList.add('active');
+  const updateAnimation = () => {
+    container.classList.toggle(
+      'is-animating',
+      boxesCreated && isInViewport && !document.hidden && !reducedMotion.matches
+    );
+  };
+
+  const createBoxes = () => {
+    if (boxesCreated) return;
+    container.insertAdjacentHTML(
+      'afterbegin',
+      '<span class="special-box" aria-hidden="true"></span>'.repeat(680)
+    );
+    boxesCreated = true;
+    container.classList.add('boxes-ready');
+    updateAnimation();
+  };
+
+  // Two delegated listeners replace a pair of listeners on every tile.
+  container.addEventListener('mouseover', event => {
+    const box = event.target.closest('.special-box');
+    if (!box || box.parentElement !== container) return;
+    clearTimeout(hoverTimers.get(box));
+    box.classList.add('active');
   });
 
-  el.addEventListener('mouseleave', () => {
-    setTimeout(() => {
-      el.classList.remove('active');
-    }, 300);
+  container.addEventListener('mouseout', event => {
+    const box = event.target.closest('.special-box');
+    if (!box || box.parentElement !== container) return;
+    if (event.relatedTarget && box.contains(event.relatedTarget)) return;
+    clearTimeout(hoverTimers.get(box));
+    if (reducedMotion.matches) {
+      box.classList.remove('active');
+      return;
+    }
+    hoverTimers.set(
+      box,
+      setTimeout(() => {
+        box.classList.remove('active');
+        hoverTimers.delete(box);
+      }, 300)
+    );
   });
-});
+
+  document.addEventListener('visibilitychange', updateAnimation);
+  reducedMotion.addEventListener('change', updateAnimation);
+
+  if ('IntersectionObserver' in window) {
+    const preparationObserver = new IntersectionObserver(
+      entries => {
+        if (!entries.some(entry => entry.isIntersecting)) return;
+        createBoxes();
+        preparationObserver.disconnect();
+      },
+      { rootMargin: '300px 0px' }
+    );
+    preparationObserver.observe(container);
+
+    const visibilityObserver = new IntersectionObserver(entries => {
+      isInViewport = entries.some(entry => entry.isIntersecting);
+      updateAnimation();
+    });
+    visibilityObserver.observe(container);
+  } else {
+    // Keep the decorative layout usable in browsers without observers.
+    isInViewport = true;
+    createBoxes();
+  }
+}

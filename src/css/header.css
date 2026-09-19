@@ -55,7 +55,7 @@
   margin: 0 10px;
   width: 65px;
   height: 25px;
-  background: url(../img/checkbox/bg-off.png) 0 0 / cover no-repeat;
+  background: url(../img/checkbox/bg-off.webp) 0 0 / cover no-repeat;
   border-radius: 30px;
   transition: background 0.5s linear;
 }
@@ -73,17 +73,17 @@
   border-radius: 50%;
   height: 70%;
   aspect-ratio: 1;
-  background: url(../img/checkbox/sun.png) center center/cover no-repeat;
+  background: url(../img/checkbox/sun.webp) center center/cover no-repeat;
   position: absolute;
   transition: all 0.5s linear;
 }
 input.checkbox:checked ~ * span.circle {
   margin: 0 0 0 60%;
-  background: url(../img/checkbox/moon.png) center center/cover no-repeat;
+  background: url(../img/checkbox/moon.webp) center center/cover no-repeat;
   background-size: 140%;
 }
 input.checkbox:checked ~ * div.box {
-  background: url(../img/checkbox/bg-on.png) center bottom/cover no-repeat;
+  background: url(../img/checkbox/bg-on.webp) center bottom/cover no-repeat;
 }
 /*todo------------------- checkbox */
 

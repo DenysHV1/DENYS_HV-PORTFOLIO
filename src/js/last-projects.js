@@ -1,8 +1,14 @@
-import Swiper from 'swiper/bundle';
-
-import 'swiper/css/bundle';
+// Keep the small, required styles eager so cards have stable geometry before
+// the slider JavaScript arrives. No Swiper JavaScript enters the initial chunk.
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/a11y';
 
 export function lastProjects(projectArr, lastProjectsEl) {
+  if (!lastProjectsEl) return;
+
   function setSimpleWebSidesMarkup(projectArrInner) {
     const arrInner = [];
     for (let i = projectArrInner.length - 1; i >= 0; i--) {
@@ -30,6 +36,8 @@ export function lastProjects(projectArr, lastProjectsEl) {
 		class="gallery-image"
 		src="${imgPreview}"
 		alt="${name}"
+		loading="lazy"
+		decoding="async"
 				width="355"
 		height="200"
 		/>
@@ -58,62 +66,43 @@ export function lastProjects(projectArr, lastProjectsEl) {
 }
 
 export function lastProjectsSlider() {
-  return new Swiper('.swiper ', {
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+  const sliderEl = document.querySelector('.last-projects-block .swiper');
+  if (!sliderEl || sliderEl.swiper) return;
 
-    pagination: {
-      type: 'bullets',
-      el: '.swiper-pagination',
-      clickable: true,
-      dynamicBullets: true,
+  let loading = false;
+  let observer;
+
+  const initialize = async () => {
+    if (loading || sliderEl.swiper) return;
+    loading = true;
+
+    try {
+      const { createLastProjectsSlider } = await import('./last-projects-slider.js');
+      createLastProjectsSlider(sliderEl);
+      observer?.disconnect();
+      sliderEl.removeEventListener('focusin', initialize);
+      sliderEl.removeEventListener('pointerdown', initialize);
+    } catch (error) {
+      // Leave the rendered cards intact if the network fails; another visit or
+      // interaction can retry loading the optional enhancement.
+      loading = false;
+      console.error('Unable to load the project slider.', error);
+    }
+  };
+
+  sliderEl.addEventListener('focusin', initialize);
+  sliderEl.addEventListener('pointerdown', initialize, { passive: true });
+
+  if (!('IntersectionObserver' in window)) {
+    void initialize();
+    return;
+  }
+
+  observer = new IntersectionObserver(
+    entries => {
+      if (entries.some(entry => entry.isIntersecting)) void initialize();
     },
-    simulateTouch: true,
-    touchRatio: 1,
-    touchAngle: 45,
-    grabCursor: true,
-    hashNavigation: {
-      watchState: true,
-    },
-    keyboard: {
-      enabled: true,
-      onlyInViewport: true,
-      pageUpDown: true,
-    },
-    autoHeight: false,
-    slidesPerView: 1,
-    watchOverflow: true,
-    spaceBetween: 20,
-    slidesPerGroup: 1,
-    centeredSlides: true,
-    initialSlide: 0,
-    loop: true,
-    freeMode: false,
-    autoplay: {
-      delay: 5000,
-      stopOnLastSlide: false,
-      disableOnInteraction: false,
-    },
-    speed: 400,
-    direction: 'horizontal',
-    effect: 'coverflow',
-    coverflowEffect: {
-      rotate: 0, //угол
-      stretch: 80, //наложение
-      slideShadows: true, //тень
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-      },
-      768: {
-        slidesPerView: 2,
-      },
-      1280: {
-        slidesPerView: 3,
-      },
-    },
-  });
+    { rootMargin: '600px 0px' }
+  );
+  observer.observe(sliderEl);
 }

@@ -62,6 +62,22 @@
 }
 
 /* ~~~SWIPER~~~ */
+/* Cards render before the optional slider module. Match its responsive widths
+   and pagination space so enhancement does not move the following section. */
+.swiper:not(.swiper-initialized) {
+  padding-bottom: 40px;
+}
+
+.swiper:not(.swiper-initialized) .swiper-slide {
+  margin-right: 20px;
+}
+
+.swiper:not(.swiper-initialized) > .swiper-button-prev,
+.swiper:not(.swiper-initialized) > .swiper-button-next,
+.swiper:not(.swiper-initialized) > .swiper-pagination {
+  visibility: hidden;
+}
+
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal.swiper-pagination-bullets-dynamic {
   top: 90%;
 }
@@ -100,6 +116,10 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .swiper:not(.swiper-initialized) .swiper-slide {
+    width: calc((100% - 20px) / 2);
+  }
+
   .last-projects_title {
     font: 400 108px / 1.15 'Impact', sans-serif;
     letter-spacing: 0.01em;
@@ -111,6 +131,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .swiper:not(.swiper-initialized) .swiper-slide {
+    width: calc((100% - 40px) / 3);
+  }
+
   .last-projects-block {
     padding: 120px 10px 0 10px;
   }

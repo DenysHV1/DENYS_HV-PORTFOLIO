@@ -7,15 +7,31 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 2px;
-  background-image: url(../img/contact-bg.png);
+  background-image: url(../img/contact-bg.webp);
   background-repeat: no-repeat;
   background-size: 100% 1%;
   background-position: top;
   animation: bgAnimate 6s infinite alternate-reverse ease-in-out;
+  animation-play-state: paused;
   padding-top: 2px;
   @media screen and (max-width: 1440px) {
     height: 100vh;
     overflow: hidden;
+  }
+}
+
+.boxes1.is-animating {
+  animation-play-state: running;
+}
+
+/* Reserve the same 17 rows of 40 square tiles before the grid is created. */
+.boxes1:not(.boxes-ready)::before {
+  content: '';
+  width: calc((100% - (39 * 2px)) / 40);
+  aspect-ratio: 1 / 17;
+  margin-bottom: 32px;
+  @media screen and (max-width: 1440px) {
+    display: none;
   }
 }
 
@@ -45,6 +61,17 @@
 .special-box.active {
   background: -webkit-linear-gradient(90deg, #eae6ff, #f4f4f4);
   background: linear-gradient(90deg, #eae6ff, #f4f4f4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boxes1 {
+    animation: none;
+    background-size: 100% 150%;
+  }
+
+  .special-box {
+    transition: none;
+  }
 }
 
 .form-container {

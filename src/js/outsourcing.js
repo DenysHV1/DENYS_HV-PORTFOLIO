@@ -1,6 +1,7 @@
 const outsourcing = (projectArr) => {
   const outsourcingListEl = document.querySelector('.outsourcing-projects-list-js');
   const showMoreBtnEl = document.querySelector('.show-more-js');
+  if (!outsourcingListEl || !showMoreBtnEl) return;
   let items = 3;
   const arrItems = projectArr?.filter(({ outsourcing }) => outsourcing)?.reverse();
   const maxItems = arrItems.length;
@@ -30,6 +31,8 @@ const outsourcing = (projectArr) => {
   class="gallery-image"
   src="${imgPreview}"
   alt="${name}"
+  loading="lazy"
+  decoding="async"
       width="355"
   height="200"
   />

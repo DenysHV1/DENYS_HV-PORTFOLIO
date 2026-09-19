@@ -15,17 +15,8 @@ export default defineConfig(({ command }) => {
       rollupOptions: {
         input: glob.sync('./src/*.html'),
         output: {
-          manualChunks(id) {
-            if (id.includes('node_modules')) {
-              return 'vendor';
-            }
-          },
-          entryFileNames: chunkInfo => {
-            if (chunkInfo.name === 'commonHelpers') {
-              return 'commonHelpers.js';
-            }
-            return '[name].js';
-          },
+          // Let Rollup keep the optional slider out of the initial page bundle.
+          entryFileNames: 'assets/[name]-[hash].js',
           assetFileNames: assetInfo => {
             if (assetInfo.name && assetInfo.name.endsWith('.html')) {
               return '[name].[ext]';

@@ -1,6 +1,7 @@
 export const favoriteProjects = projectArr => {
   const favoriteListEl = document.querySelector('.favorite-projects-list-js');
   const showMoreBtnEl = document.querySelector('.show-more-js1');
+  if (!favoriteListEl || !showMoreBtnEl) return;
   let items = 3;
   const arrItems = projectArr?.filter(({ favorite }) => favorite)?.reverse();
   const maxItems = arrItems.length;
@@ -30,6 +31,8 @@ export const favoriteProjects = projectArr => {
   class="gallery-image"
   src="${imgPreview}"
   alt="${name}"
+  loading="lazy"
+  decoding="async"
       width="355"
   height="200"
   />

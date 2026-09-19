@@ -21,22 +21,14 @@ export function header() {
 
   // Theme
 
-  window.addEventListener('load', () => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
-      body.classList.add('dark-theme');
-      toggleSwitch.checked = true;
-    }
-  });
-
   const toggleSwitch = document.getElementById('switch');
+  toggleSwitch.checked = body.classList.contains('dark-theme');
   toggleSwitch.addEventListener('change', function () {
-    if (toggleSwitch.checked) {
-      body.classList.add('dark-theme');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      body.classList.remove('dark-theme');
-      localStorage.setItem('theme', 'light');
+    body.classList.toggle('dark-theme', toggleSwitch.checked);
+    try {
+      localStorage.setItem('theme', toggleSwitch.checked ? 'dark' : 'light');
+    } catch {
+      // Theme changes still work for this visit without browser storage.
     }
   });
 

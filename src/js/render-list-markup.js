@@ -11,14 +11,14 @@ export const renderListMarkup = (projects, key, librariesMarkup) => {
     space =
       '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
   }
-  const arr = projects.toSorted((a, b) => b.id - a.id);
+  const arr = projects
+    .filter(({ status, category }) => status && category === key)
+    .toSorted((a, b) => b.id - a.id);
   return arr
     .map(
       ({
         name,
         id,
-        category,
-        status,
         imgPreview,
         codeLink,
         siteLink,
@@ -26,14 +26,12 @@ export const renderListMarkup = (projects, key, librariesMarkup) => {
         technology2,
         technology3,
         libraries,
-      }) =>
-        status && category === key
-          ? `
+      }, index) => `
 	<li class="pages-list-item">
 	  <h2 class="project-name">${name}</h2>
 	  <p class="project-number">Project №: <span>${id}/${maxNumProj}</span></p>
 	  <div class="project-img-container">
-		<img src="${imgPreview}" alt="${name}">
+		<img src="${imgPreview}" alt="${name}" loading="${index === 0 ? 'eager' : 'lazy'}" decoding="async" width="355" height="200">
 	  </div>
 	  <div class="description">
 		<div class="description-info">
@@ -53,7 +51,6 @@ export const renderListMarkup = (projects, key, librariesMarkup) => {
 		</div>
 	  </div>
 	</li>`
-          : ''
     )
     .join('');
 };

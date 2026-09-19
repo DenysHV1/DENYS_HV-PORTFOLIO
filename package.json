@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/DENYS_HV-PORTFOLIO/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node scripts/check-build.mjs"
   },
   "devDependencies": {
     "glob": "^11.0.0",
